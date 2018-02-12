@@ -21281,7 +21281,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="195.834" y="151.13" size="1.27" layer="97">32u4 BYPASS</text>
 <text x="220.98" y="151.13" size="1.27" layer="97">MIC5219 BYPASS</text>
 <text x="171.45" y="11.43" size="2.54" layer="94">Marshall Taylor</text>
-<text x="238.252" y="7.112" size="2.54" layer="94">v10</text>
+<text x="238.252" y="7.112" size="2.54" layer="94">v01</text>
 <text x="149.86" y="38.1" size="2.54" layer="94">LilyPad concept and shapes by:
 L. Buechley and N. Seidle</text>
 <wire x1="223.52" y1="182.88" x2="246.38" y2="182.88" width="0.1524" layer="97" style="shortdash"/>
@@ -21317,6 +21317,7 @@ L. Buechley and N. Seidle</text>
 I_CHG = 1000/R2</text>
 <text x="5.08" y="5.08" size="2.032" layer="97" font="vector">Supply 5.0V from USB, or
 3.3-4.2V on battery connector.</text>
+<text x="148.844" y="7.112" size="2.54" layer="94">Revised by: Elias Santistevan</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="73.66" y="43.18">
@@ -21523,18 +21524,18 @@ I_CHG = 1000/R2</text>
 <instance part="U$44" gate="G$1" x="226.06" y="33.02"/>
 <instance part="GND26" gate="1" x="172.72" y="144.78"/>
 <instance part="U$1" gate="G$1" x="220.98" y="38.1"/>
-<instance part="LOGO6" gate="G$1" x="233.68" y="53.34"/>
+<instance part="LOGO6" gate="G$1" x="233.68" y="55.88"/>
 <instance part="D10" gate="G1" x="157.48" y="157.48" smashed="yes">
 <attribute name="NAME" x="149.86" y="162.8775" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="139.7" y="152.0825" size="1.778" layer="95" font="vector" align="top-left"/>
 </instance>
-<instance part="TP5" gate="G$1" x="167.64" y="58.42" rot="R180"/>
-<instance part="TP6" gate="G$1" x="167.64" y="68.58" rot="R180"/>
-<instance part="GND28" gate="1" x="172.72" y="53.34"/>
-<instance part="P+9" gate="G$1" x="172.72" y="73.66"/>
+<instance part="TP5" gate="G$1" x="170.18" y="58.42" rot="R180"/>
+<instance part="TP6" gate="G$1" x="170.18" y="68.58" rot="R180"/>
+<instance part="GND28" gate="1" x="175.26" y="53.34"/>
+<instance part="P+9" gate="G$1" x="175.26" y="73.66"/>
 <instance part="TP7" gate="G$1" x="93.98" y="48.26" rot="R90"/>
 <instance part="TP8" gate="G$1" x="109.22" y="22.86"/>
-<instance part="LOGO1" gate="G$1" x="88.9" y="-2.54"/>
+<instance part="LOGO1" gate="G$1" x="90.932" y="-2.032"/>
 </instances>
 <busses>
 </busses>
@@ -21727,8 +21728,8 @@ I_CHG = 1000/R2</text>
 <segment>
 <pinref part="TP5" gate="G$1" pin="1"/>
 <pinref part="GND28" gate="1" pin="GND"/>
-<wire x1="167.64" y1="58.42" x2="172.72" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="58.42" x2="172.72" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="58.42" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="58.42" x2="175.26" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -21838,8 +21839,8 @@ I_CHG = 1000/R2</text>
 <segment>
 <pinref part="TP6" gate="G$1" pin="1"/>
 <pinref part="P+9" gate="G$1" pin="3.3V"/>
-<wire x1="167.64" y1="68.58" x2="172.72" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="68.58" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="68.58" x2="175.26" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="68.58" x2="175.26" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
