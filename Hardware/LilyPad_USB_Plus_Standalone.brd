@@ -2367,7 +2367,21 @@
 <circle x="25.4" y="25.4" radius="25.368509375" width="0.254" layer="20"/>
 <dimension x1="50.79999375" y1="25.4" x2="0.00000625" y2="25.4" x3="25.4" y3="60.96" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <text x="29.845" y="61.722" size="1.778" layer="47" font="vector" ratio="15">Inches</text>
-<text x="5.08" y="-14.76375" size="1.778" layer="51" font="vector" align="top-left">LilyPad concept and shapes by:  L. Buechley and N. Seidle</text>
+<text x="-5.08" y="-14.76375" size="1.778" layer="52" font="vector" rot="MR0" align="top-left">LilyPad concept and shapes by:  L. Buechley and N. Seidle</text>
+<text x="-5.08" y="-30.48" size="1.778" layer="52" rot="MR0" align="top-left">PCB thickness: 31 mil / 0.8mm </text>
+<text x="-5.08" y="-34.29" size="1.778" layer="52" rot="MR0" align="top-left">Solder mask color: Purple (Lilypad)</text>
+<text x="-5.08" y="-38.1" size="1.778" layer="52" rot="MR0" align="top-left">Finishing: Lead-free HASL</text>
+<text x="-5.08" y="-41.91" size="1.778" layer="52" rot="MR0" align="top-left">Unplated holes:
+0.013
+</text>
+<text x="-31.75" y="-41.91" size="1.778" layer="52" rot="MR0" align="top-left">Plated holes:
+0.11
+</text>
+<text x="-52.07" y="-11.43" size="1.778" layer="52" font="vector" rot="MR0">Marshall Taylor</text>
+<text x="-32.131" y="-13.97" size="1.778" layer="52" font="vector" rot="MR0">Revised by: Elias Santistevan</text>
+<text x="3.81" y="-14.76375" size="1.778" layer="51" font="vector" align="top-left">LilyPad concept and shapes by:  L. Buechley and N. Seidle</text>
+<text x="50.8" y="-11.43" size="1.778" layer="51" font="vector">Marshall Taylor</text>
+<text x="32.131" y="-13.97" size="1.778" layer="51" font="vector">Revised by: Elias Santistevan</text>
 <text x="5.08" y="-30.48" size="1.778" layer="51" align="top-left">PCB thickness: 31 mil / 0.8mm </text>
 <text x="5.08" y="-34.29" size="1.778" layer="51" align="top-left">Solder mask color: Purple (Lilypad)</text>
 <text x="5.08" y="-38.1" size="1.778" layer="51" align="top-left">Finishing: Lead-free HASL</text>
@@ -2377,8 +2391,6 @@
 <text x="31.75" y="-41.91" size="1.778" layer="51" align="top-left">Plated holes:
 0.11
 </text>
-<text x="52.07" y="-11.43" size="1.778" layer="51" font="vector">Marshall Taylor</text>
-<text x="32.131" y="-13.97" size="1.778" layer="51" font="vector">Revised by: Elias Santistevan</text>
 </plain>
 <libraries>
 <library name="LilyPad-Wearables">
@@ -2952,1064 +2964,141 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
 </package>
-<package name="SFE_LOGO_NAME_FLAME_.1">
-<description>&lt;h3&gt;SparkFun Font Logo w/ Flame - 0.1" Height - Silkscreen&lt;/h3&gt;
-&lt;p&gt;SparkFun font logo with flame logo&lt;/p&gt;
+<package name="SFE_LOGO_FLAME_.2">
+<description>&lt;h3&gt;SparkFun Flame Logo - 0.2" Height - Silkscreen&lt;/h3&gt;
+&lt;p&gt;SparkFun Flame Logo&lt;/p&gt;
 &lt;p&gt;Devices using:
-&lt;ul&gt;&lt;li&gt;SFE_LOGO_NAME_FLAME&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+&lt;ul&gt;&lt;li&gt;SFE_LOGO_FLAME&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <polygon width="0.0762" layer="21">
-<vertex x="0.81" y="1.4"/>
-<vertex x="0.81" y="1.34"/>
-<vertex x="0.83" y="1.29"/>
-<vertex x="0.86" y="1.25"/>
-<vertex x="0.9" y="1.22"/>
-<vertex x="0.94" y="1.19"/>
-<vertex x="1" y="1.18"/>
-<vertex x="1.05" y="1.17"/>
-<vertex x="1.11" y="1.16"/>
-<vertex x="1.15" y="1.17"/>
-<vertex x="1.19" y="1.17"/>
-<vertex x="1.23" y="1.18"/>
-<vertex x="1.27" y="1.2"/>
-<vertex x="1.31" y="1.23"/>
-<vertex x="1.34" y="1.26"/>
-<vertex x="1.35" y="1.3"/>
-<vertex x="1.36" y="1.34"/>
-<vertex x="1.35" y="1.38"/>
-<vertex x="1.33" y="1.42"/>
-<vertex x="1.29" y="1.45"/>
-<vertex x="1.24" y="1.48"/>
-<vertex x="1.18" y="1.5"/>
-<vertex x="1.1" y="1.52"/>
-<vertex x="1.02" y="1.54"/>
-<vertex x="0.92" y="1.56"/>
-<vertex x="0.83" y="1.58"/>
-<vertex x="0.75" y="1.61"/>
-<vertex x="0.68" y="1.64"/>
-<vertex x="0.61" y="1.68"/>
-<vertex x="0.55" y="1.72"/>
-<vertex x="0.51" y="1.78"/>
-<vertex x="0.48" y="1.85"/>
-<vertex x="0.47" y="1.94"/>
-<vertex x="0.48" y="2.06"/>
-<vertex x="0.52" y="2.16"/>
-<vertex x="0.59" y="2.24"/>
-<vertex x="0.66" y="2.3"/>
-<vertex x="0.76" y="2.35"/>
-<vertex x="0.86" y="2.37"/>
-<vertex x="0.97" y="2.39"/>
-<vertex x="1.09" y="2.39"/>
-<vertex x="1.2" y="2.39"/>
-<vertex x="1.31" y="2.37"/>
-<vertex x="1.41" y="2.34"/>
-<vertex x="1.5" y="2.3"/>
-<vertex x="1.58" y="2.24"/>
-<vertex x="1.64" y="2.16"/>
-<vertex x="1.69" y="2.06"/>
-<vertex x="1.71" y="1.94"/>
-<vertex x="1.66" y="1.94"/>
-<vertex x="1.62" y="1.94"/>
-<vertex x="1.57" y="1.94"/>
-<vertex x="1.53" y="1.94"/>
-<vertex x="1.48" y="1.94"/>
-<vertex x="1.43" y="1.94"/>
-<vertex x="1.39" y="1.94"/>
-<vertex x="1.34" y="1.94"/>
-<vertex x="1.33" y="1.99"/>
-<vertex x="1.31" y="2.04"/>
-<vertex x="1.29" y="2.07"/>
-<vertex x="1.26" y="2.09"/>
-<vertex x="1.22" y="2.11"/>
-<vertex x="1.17" y="2.13"/>
-<vertex x="1.13" y="2.13"/>
-<vertex x="1.08" y="2.13"/>
-<vertex x="1.04" y="2.13"/>
-<vertex x="1" y="2.13"/>
-<vertex x="0.97" y="2.12"/>
-<vertex x="0.93" y="2.11"/>
-<vertex x="0.9" y="2.1"/>
-<vertex x="0.88" y="2.07"/>
-<vertex x="0.86" y="2.04"/>
-<vertex x="0.86" y="2"/>
-<vertex x="0.87" y="1.96"/>
-<vertex x="0.9" y="1.92"/>
-<vertex x="0.94" y="1.89"/>
-<vertex x="1" y="1.86"/>
-<vertex x="1.06" y="1.84"/>
-<vertex x="1.14" y="1.83"/>
-<vertex x="1.22" y="1.81"/>
-<vertex x="1.3" y="1.79"/>
-<vertex x="1.38" y="1.77"/>
-<vertex x="1.47" y="1.75"/>
-<vertex x="1.54" y="1.71"/>
-<vertex x="1.61" y="1.67"/>
-<vertex x="1.67" y="1.62"/>
-<vertex x="1.71" y="1.56"/>
-<vertex x="1.74" y="1.49"/>
-<vertex x="1.75" y="1.4"/>
-<vertex x="1.73" y="1.27"/>
-<vertex x="1.69" y="1.16"/>
-<vertex x="1.63" y="1.08"/>
-<vertex x="1.55" y="1.01"/>
-<vertex x="1.45" y="0.96"/>
-<vertex x="1.34" y="0.93"/>
-<vertex x="1.22" y="0.91"/>
-<vertex x="1.1" y="0.9"/>
-<vertex x="0.98" y="0.91"/>
-<vertex x="0.86" y="0.93"/>
-<vertex x="0.75" y="0.96"/>
-<vertex x="0.65" y="1.01"/>
-<vertex x="0.57" y="1.08"/>
-<vertex x="0.5" y="1.17"/>
-<vertex x="0.46" y="1.27"/>
-<vertex x="0.44" y="1.4"/>
-<vertex x="0.48" y="1.4"/>
-<vertex x="0.53" y="1.4"/>
-<vertex x="0.58" y="1.4"/>
-<vertex x="0.62" y="1.4"/>
-<vertex x="0.67" y="1.4"/>
-<vertex x="0.71" y="1.4"/>
-<vertex x="0.76" y="1.4"/>
-</polygon>
-<polygon width="0.0762" layer="21">
-<vertex x="2.91" y="1.4"/>
-<vertex x="2.94" y="1.48"/>
-<vertex x="2.95" y="1.56"/>
-<vertex x="2.95" y="1.64"/>
-<vertex x="3.34" y="1.63"/>
-<vertex x="3.33" y="1.49"/>
-<vertex x="3.3" y="1.36"/>
-<vertex x="3.25" y="1.24"/>
-</polygon>
-<polygon width="0.0762" layer="21">
-<vertex x="3.25" y="1.24"/>
-<vertex x="3.19" y="1.13"/>
-<vertex x="3.1" y="1.04"/>
-<vertex x="2.99" y="0.96"/>
-<vertex x="2.87" y="0.92"/>
-<vertex x="2.72" y="0.9"/>
-<vertex x="2.66" y="0.91"/>
-<vertex x="2.6" y="0.92"/>
-<vertex x="2.54" y="0.93"/>
-<vertex x="2.48" y="0.96"/>
-<vertex x="2.43" y="0.99"/>
-<vertex x="2.38" y="1.02"/>
-<vertex x="2.34" y="1.07"/>
-<vertex x="2.3" y="1.12"/>
-<vertex x="2.29" y="1.12"/>
-<vertex x="2.29" y="0.99"/>
-<vertex x="2.29" y="0.86"/>
-<vertex x="2.29" y="0.74"/>
-<vertex x="2.29" y="0.61"/>
-<vertex x="2.29" y="0.48"/>
-<vertex x="2.29" y="0.35"/>
-<vertex x="2.29" y="0.23"/>
-<vertex x="2.29" y="0.1"/>
-<vertex x="2.25" y="0.14"/>
-<vertex x="2.2" y="0.19"/>
-<vertex x="2.15" y="0.23"/>
-<vertex x="2.1" y="0.27"/>
-<vertex x="2.05" y="0.31"/>
-<vertex x="2" y="0.36"/>
-<vertex x="1.96" y="0.4"/>
-<vertex x="1.91" y="0.44"/>
-<vertex x="1.91" y="0.68"/>
-<vertex x="1.91" y="0.91"/>
-<vertex x="1.91" y="1.14"/>
-<vertex x="1.91" y="1.37"/>
-<vertex x="1.91" y="1.6"/>
-<vertex x="1.91" y="1.83"/>
-<vertex x="1.91" y="2.06"/>
-<vertex x="1.91" y="2.29"/>
-<vertex x="1.95" y="2.3"/>
-<vertex x="2" y="2.31"/>
-<vertex x="2.05" y="2.31"/>
-<vertex x="2.09" y="2.32"/>
-<vertex x="2.14" y="2.33"/>
-<vertex x="2.18" y="2.34"/>
-<vertex x="2.23" y="2.35"/>
-<vertex x="2.28" y="2.36"/>
-<vertex x="2.28" y="2.33"/>
-<vertex x="2.28" y="2.31"/>
-<vertex x="2.28" y="2.29"/>
-<vertex x="2.28" y="2.27"/>
-<vertex x="2.28" y="2.24"/>
-<vertex x="2.28" y="2.22"/>
-<vertex x="2.28" y="2.2"/>
-<vertex x="2.28" y="2.18"/>
-<vertex x="2.32" y="2.23"/>
-<vertex x="2.36" y="2.27"/>
-<vertex x="2.41" y="2.31"/>
-<vertex x="2.46" y="2.34"/>
-<vertex x="2.51" y="2.37"/>
-<vertex x="2.57" y="2.38"/>
-<vertex x="2.63" y="2.39"/>
-<vertex x="2.7" y="2.39"/>
-<vertex x="2.85" y="2.38"/>
-<vertex x="2.99" y="2.33"/>
-<vertex x="3.1" y="2.26"/>
-<vertex x="3.19" y="2.16"/>
-<vertex x="3.26" y="2.05"/>
-<vertex x="3.3" y="1.92"/>
-<vertex x="3.33" y="1.78"/>
-<vertex x="3.34" y="1.63"/>
-<vertex x="2.95" y="1.64"/>
-<vertex x="2.95" y="1.73"/>
-<vertex x="2.94" y="1.81"/>
-<vertex x="2.91" y="1.89"/>
-<vertex x="2.88" y="1.96"/>
-<vertex x="2.83" y="2.02"/>
-<vertex x="2.77" y="2.06"/>
-<vertex x="2.7" y="2.09"/>
-<vertex x="2.61" y="2.1"/>
-<vertex x="2.53" y="2.09"/>
-<vertex x="2.45" y="2.06"/>
-<vertex x="2.4" y="2.02"/>
-<vertex x="2.35" y="1.96"/>
-<vertex x="2.32" y="1.89"/>
-<vertex x="2.29" y="1.81"/>
-<vertex x="2.28" y="1.73"/>
-<vertex x="2.28" y="1.64"/>
-<vertex x="2.28" y="1.56"/>
-<vertex x="2.3" y="1.48"/>
-<vertex x="2.32" y="1.4"/>
-<vertex x="2.35" y="1.33"/>
-<vertex x="2.4" y="1.28"/>
-<vertex x="2.46" y="1.23"/>
-<vertex x="2.53" y="1.21"/>
-<vertex x="2.62" y="1.2"/>
-<vertex x="2.7" y="1.21"/>
-<vertex x="2.78" y="1.23"/>
-<vertex x="2.84" y="1.28"/>
-<vertex x="2.88" y="1.33"/>
-<vertex x="2.91" y="1.4"/>
-</polygon>
-<polygon width="0.0762" layer="21">
-<vertex x="3.93" y="1.75"/>
-<vertex x="4.02" y="1.76"/>
-<vertex x="4.11" y="1.77"/>
-<vertex x="4.18" y="1.78"/>
-<vertex x="4.23" y="1.58"/>
-<vertex x="4.21" y="1.57"/>
-<vertex x="4.19" y="1.57"/>
-<vertex x="4.16" y="1.56"/>
-<vertex x="4.14" y="1.56"/>
-<vertex x="4.12" y="1.56"/>
-<vertex x="4.09" y="1.55"/>
-<vertex x="4.07" y="1.55"/>
-<vertex x="4.05" y="1.55"/>
-<vertex x="4.03" y="1.54"/>
-<vertex x="4.01" y="1.54"/>
-</polygon>
-<polygon width="0.0762" layer="21">
-<vertex x="4.01" y="1.54"/>
-<vertex x="3.98" y="1.53"/>
-<vertex x="3.96" y="1.52"/>
-<vertex x="3.95" y="1.51"/>
-<vertex x="3.93" y="1.5"/>
-<vertex x="3.91" y="1.49"/>
-<vertex x="3.9" y="1.48"/>
-<vertex x="3.88" y="1.47"/>
-<vertex x="3.87" y="1.45"/>
-<vertex x="3.86" y="1.43"/>
-<vertex x="3.85" y="1.41"/>
-<vertex x="3.85" y="1.39"/>
-<vertex x="3.84" y="1.37"/>
-<vertex x="3.84" y="1.34"/>
-<vertex x="3.84" y="1.32"/>
-<vertex x="3.85" y="1.29"/>
-<vertex x="3.85" y="1.27"/>
-<vertex x="3.86" y="1.25"/>
-<vertex x="3.87" y="1.24"/>
-<vertex x="3.88" y="1.22"/>
-<vertex x="3.9" y="1.21"/>
-<vertex x="3.91" y="1.2"/>
-<vertex x="3.93" y="1.19"/>
-<vertex x="3.95" y="1.18"/>
-<vertex x="3.97" y="1.18"/>
-<vertex x="3.99" y="1.17"/>
-<vertex x="4.01" y="1.17"/>
-<vertex x="4.03" y="1.16"/>
-<vertex x="4.06" y="1.16"/>
-<vertex x="4.08" y="1.16"/>
-<vertex x="4.13" y="1.17"/>
-<vertex x="4.18" y="1.17"/>
-<vertex x="4.22" y="1.19"/>
-<vertex x="4.26" y="1.2"/>
-<vertex x="4.29" y="1.22"/>
-<vertex x="4.31" y="1.24"/>
-<vertex x="4.33" y="1.27"/>
-<vertex x="4.35" y="1.29"/>
-<vertex x="4.36" y="1.32"/>
-<vertex x="4.37" y="1.35"/>
-<vertex x="4.38" y="1.37"/>
-<vertex x="4.39" y="1.4"/>
-<vertex x="4.39" y="1.43"/>
-<vertex x="4.39" y="1.45"/>
-<vertex x="4.39" y="1.47"/>
-<vertex x="4.39" y="1.49"/>
-<vertex x="4.39" y="1.5"/>
-<vertex x="4.39" y="1.51"/>
-<vertex x="4.39" y="1.52"/>
-<vertex x="4.39" y="1.53"/>
-<vertex x="4.39" y="1.54"/>
-<vertex x="4.39" y="1.55"/>
-<vertex x="4.39" y="1.56"/>
-<vertex x="4.39" y="1.57"/>
-<vertex x="4.39" y="1.58"/>
-<vertex x="4.39" y="1.59"/>
-<vertex x="4.39" y="1.6"/>
-<vertex x="4.39" y="1.61"/>
-<vertex x="4.39" y="1.62"/>
-<vertex x="4.39" y="1.63"/>
-<vertex x="4.38" y="1.62"/>
-<vertex x="4.37" y="1.61"/>
-<vertex x="4.35" y="1.61"/>
-<vertex x="4.33" y="1.6"/>
-<vertex x="4.31" y="1.59"/>
-<vertex x="4.29" y="1.59"/>
-<vertex x="4.27" y="1.58"/>
-<vertex x="4.25" y="1.58"/>
-<vertex x="4.23" y="1.58"/>
-<vertex x="4.18" y="1.78"/>
-<vertex x="4.25" y="1.8"/>
-<vertex x="4.31" y="1.82"/>
-<vertex x="4.36" y="1.85"/>
-<vertex x="4.39" y="1.89"/>
-<vertex x="4.39" y="1.94"/>
-<vertex x="4.39" y="1.97"/>
-<vertex x="4.39" y="2"/>
-<vertex x="4.38" y="2.02"/>
-<vertex x="4.37" y="2.04"/>
-<vertex x="4.36" y="2.06"/>
-<vertex x="4.35" y="2.07"/>
-<vertex x="4.34" y="2.09"/>
-<vertex x="4.32" y="2.1"/>
-<vertex x="4.3" y="2.11"/>
-<vertex x="4.28" y="2.12"/>
-<vertex x="4.26" y="2.12"/>
-<vertex x="4.24" y="2.13"/>
-<vertex x="4.22" y="2.13"/>
-<vertex x="4.19" y="2.13"/>
-<vertex x="4.17" y="2.13"/>
-<vertex x="4.14" y="2.13"/>
-<vertex x="4.12" y="2.13"/>
-<vertex x="4.09" y="2.13"/>
-<vertex x="4.06" y="2.13"/>
-<vertex x="4.04" y="2.12"/>
-<vertex x="4.02" y="2.11"/>
-<vertex x="4" y="2.1"/>
-<vertex x="3.98" y="2.09"/>
-<vertex x="3.96" y="2.08"/>
-<vertex x="3.95" y="2.07"/>
-<vertex x="3.93" y="2.05"/>
-<vertex x="3.92" y="2.04"/>
-<vertex x="3.91" y="2.02"/>
-<vertex x="3.9" y="1.99"/>
-<vertex x="3.89" y="1.97"/>
-<vertex x="3.89" y="1.95"/>
-<vertex x="3.89" y="1.92"/>
-<vertex x="3.86" y="1.92"/>
-<vertex x="3.84" y="1.92"/>
-<vertex x="3.81" y="1.92"/>
-<vertex x="3.79" y="1.92"/>
-<vertex x="3.76" y="1.92"/>
-<vertex x="3.74" y="1.92"/>
-<vertex x="3.72" y="1.92"/>
-<vertex x="3.69" y="1.92"/>
-<vertex x="3.67" y="1.92"/>
-<vertex x="3.64" y="1.92"/>
-<vertex x="3.62" y="1.92"/>
-<vertex x="3.59" y="1.92"/>
-<vertex x="3.57" y="1.92"/>
-<vertex x="3.55" y="1.92"/>
-<vertex x="3.52" y="1.92"/>
-<vertex x="3.5" y="1.92"/>
-<vertex x="3.51" y="1.98"/>
-<vertex x="3.52" y="2.04"/>
-<vertex x="3.54" y="2.1"/>
-<vertex x="3.57" y="2.14"/>
-<vertex x="3.6" y="2.19"/>
-<vertex x="3.63" y="2.23"/>
-<vertex x="3.67" y="2.26"/>
-<vertex x="3.72" y="2.29"/>
-<vertex x="3.77" y="2.32"/>
-<vertex x="3.82" y="2.34"/>
-<vertex x="3.87" y="2.35"/>
-<vertex x="3.93" y="2.37"/>
-<vertex x="3.99" y="2.38"/>
-<vertex x="4.04" y="2.39"/>
-<vertex x="4.1" y="2.39"/>
-<vertex x="4.16" y="2.39"/>
-<vertex x="4.22" y="2.39"/>
-<vertex x="4.27" y="2.39"/>
-<vertex x="4.32" y="2.38"/>
-<vertex x="4.38" y="2.38"/>
-<vertex x="4.43" y="2.37"/>
-<vertex x="4.48" y="2.35"/>
-<vertex x="4.53" y="2.34"/>
-<vertex x="4.58" y="2.32"/>
-<vertex x="4.62" y="2.29"/>
-<vertex x="4.66" y="2.26"/>
-<vertex x="4.7" y="2.23"/>
-<vertex x="4.73" y="2.19"/>
-<vertex x="4.75" y="2.15"/>
-<vertex x="4.77" y="2.1"/>
-<vertex x="4.78" y="2.05"/>
-<vertex x="4.78" y="1.99"/>
-<vertex x="4.78" y="1.94"/>
-<vertex x="4.78" y="1.9"/>
-<vertex x="4.78" y="1.85"/>
-<vertex x="4.78" y="1.8"/>
-<vertex x="4.78" y="1.76"/>
-<vertex x="4.78" y="1.71"/>
-<vertex x="4.78" y="1.67"/>
-<vertex x="4.78" y="1.62"/>
-<vertex x="4.78" y="1.57"/>
-<vertex x="4.78" y="1.53"/>
-<vertex x="4.78" y="1.48"/>
-<vertex x="4.78" y="1.44"/>
-<vertex x="4.78" y="1.39"/>
-<vertex x="4.78" y="1.34"/>
-<vertex x="4.78" y="1.3"/>
-<vertex x="4.78" y="1.25"/>
-<vertex x="4.78" y="1.23"/>
-<vertex x="4.78" y="1.2"/>
-<vertex x="4.78" y="1.18"/>
-<vertex x="4.79" y="1.16"/>
-<vertex x="4.79" y="1.13"/>
-<vertex x="4.79" y="1.11"/>
-<vertex x="4.79" y="1.09"/>
-<vertex x="4.79" y="1.07"/>
-<vertex x="4.8" y="1.05"/>
-<vertex x="4.8" y="1.03"/>
-<vertex x="4.81" y="1.01"/>
-<vertex x="4.81" y="0.99"/>
-<vertex x="4.81" y="0.98"/>
-<vertex x="4.82" y="0.96"/>
-<vertex x="4.83" y="0.95"/>
-<vertex x="4.83" y="0.94"/>
-<vertex x="4.81" y="0.94"/>
-<vertex x="4.78" y="0.94"/>
-<vertex x="4.76" y="0.94"/>
-<vertex x="4.73" y="0.94"/>
-<vertex x="4.71" y="0.94"/>
-<vertex x="4.68" y="0.94"/>
-<vertex x="4.66" y="0.94"/>
-<vertex x="4.64" y="0.94"/>
-<vertex x="4.61" y="0.94"/>
-<vertex x="4.59" y="0.94"/>
-<vertex x="4.56" y="0.94"/>
-<vertex x="4.54" y="0.94"/>
-<vertex x="4.51" y="0.94"/>
-<vertex x="4.49" y="0.94"/>
-<vertex x="4.46" y="0.94"/>
-<vertex x="4.44" y="0.94"/>
-<vertex x="4.44" y="0.95"/>
-<vertex x="4.43" y="0.96"/>
-<vertex x="4.43" y="0.97"/>
-<vertex x="4.42" y="0.98"/>
-<vertex x="4.42" y="0.99"/>
-<vertex x="4.42" y="1"/>
-<vertex x="4.42" y="1.01"/>
-<vertex x="4.41" y="1.02"/>
-<vertex x="4.41" y="1.03"/>
-<vertex x="4.41" y="1.04"/>
-<vertex x="4.41" y="1.05"/>
-<vertex x="4.41" y="1.06"/>
-<vertex x="4.41" y="1.07"/>
-<vertex x="4.41" y="1.08"/>
-<vertex x="4.39" y="1.05"/>
-<vertex x="4.36" y="1.03"/>
-<vertex x="4.34" y="1.01"/>
-<vertex x="4.31" y="0.99"/>
-<vertex x="4.28" y="0.98"/>
-<vertex x="4.25" y="0.96"/>
-<vertex x="4.22" y="0.95"/>
-<vertex x="4.19" y="0.94"/>
-<vertex x="4.16" y="0.93"/>
-<vertex x="4.13" y="0.92"/>
-<vertex x="4.1" y="0.92"/>
-<vertex x="4.07" y="0.91"/>
-<vertex x="4.03" y="0.91"/>
-<vertex x="4" y="0.9"/>
-<vertex x="3.97" y="0.9"/>
-<vertex x="3.94" y="0.9"/>
-<vertex x="3.89" y="0.9"/>
-<vertex x="3.84" y="0.91"/>
-<vertex x="3.79" y="0.91"/>
-<vertex x="3.75" y="0.92"/>
-<vertex x="3.7" y="0.94"/>
-<vertex x="3.66" y="0.96"/>
-<vertex x="3.63" y="0.98"/>
-<vertex x="3.59" y="1"/>
-<vertex x="3.56" y="1.03"/>
-<vertex x="3.54" y="1.06"/>
-<vertex x="3.51" y="1.1"/>
-<vertex x="3.49" y="1.13"/>
-<vertex x="3.48" y="1.18"/>
-<vertex x="3.46" y="1.22"/>
-<vertex x="3.46" y="1.27"/>
-<vertex x="3.45" y="1.32"/>
-<vertex x="3.47" y="1.43"/>
-<vertex x="3.5" y="1.52"/>
-<vertex x="3.54" y="1.59"/>
-<vertex x="3.61" y="1.65"/>
-<vertex x="3.68" y="1.69"/>
-<vertex x="3.76" y="1.72"/>
-<vertex x="3.84" y="1.74"/>
-<vertex x="3.93" y="1.75"/>
-</polygon>
-<polygon width="0.0762" layer="21">
-<vertex x="5" y="2.29"/>
-<vertex x="5.05" y="2.3"/>
-<vertex x="5.09" y="2.31"/>
-<vertex x="5.14" y="2.31"/>
-<vertex x="5.19" y="2.32"/>
-<vertex x="5.23" y="2.33"/>
-<vertex x="5.28" y="2.34"/>
-<vertex x="5.33" y="2.35"/>
-<vertex x="5.37" y="2.36"/>
-<vertex x="5.37" y="2.32"/>
-<vertex x="5.37" y="2.29"/>
-<vertex x="5.37" y="2.26"/>
-<vertex x="5.37" y="2.22"/>
-<vertex x="5.37" y="2.19"/>
-<vertex x="5.37" y="2.16"/>
-<vertex x="5.37" y="2.13"/>
-<vertex x="5.37" y="2.09"/>
-<vertex x="5.41" y="2.16"/>
-<vertex x="5.45" y="2.21"/>
-<vertex x="5.5" y="2.27"/>
-<vertex x="5.55" y="2.31"/>
-<vertex x="5.62" y="2.35"/>
-<vertex x="5.68" y="2.37"/>
-<vertex x="5.75" y="2.39"/>
-<vertex x="5.83" y="2.39"/>
-<vertex x="5.84" y="2.39"/>
-<vertex x="5.85" y="2.39"/>
-<vertex x="5.86" y="2.39"/>
-<vertex x="5.87" y="2.39"/>
-<vertex x="5.88" y="2.39"/>
-<vertex x="5.89" y="2.39"/>
-<vertex x="5.9" y="2.38"/>
-<vertex x="5.91" y="2.38"/>
-<vertex x="5.91" y="2.33"/>
-<vertex x="5.91" y="2.29"/>
-<vertex x="5.91" y="2.24"/>
-<vertex x="5.91" y="2.2"/>
-<vertex x="5.91" y="2.15"/>
-<vertex x="5.91" y="2.11"/>
-<vertex x="5.91" y="2.06"/>
-<vertex x="5.91" y="2.02"/>
-<vertex x="5.9" y="2.02"/>
-<vertex x="5.88" y="2.03"/>
-<vertex x="5.86" y="2.03"/>
-<vertex x="5.84" y="2.03"/>
-<vertex x="5.83" y="2.03"/>
-<vertex x="5.81" y="2.03"/>
-<vertex x="5.79" y="2.03"/>
-<vertex x="5.77" y="2.03"/>
-<vertex x="5.67" y="2.02"/>
-<vertex x="5.59" y="2"/>
-<vertex x="5.52" y="1.96"/>
-<vertex x="5.47" y="1.9"/>
-<vertex x="5.43" y="1.83"/>
-<vertex x="5.41" y="1.76"/>
-<vertex x="5.39" y="1.67"/>
-<vertex x="5.39" y="1.58"/>
-<vertex x="5.39" y="1.5"/>
-<vertex x="5.39" y="1.42"/>
-<vertex x="5.39" y="1.34"/>
-<vertex x="5.39" y="1.26"/>
-<vertex x="5.39" y="1.18"/>
-<vertex x="5.39" y="1.1"/>
-<vertex x="5.39" y="1.02"/>
-<vertex x="5.39" y="0.94"/>
-<vertex x="5.34" y="0.94"/>
-<vertex x="5.29" y="0.94"/>
-<vertex x="5.24" y="0.94"/>
-<vertex x="5.19" y="0.94"/>
-<vertex x="5.14" y="0.94"/>
-<vertex x="5.1" y="0.94"/>
-<vertex x="5.05" y="0.94"/>
-<vertex x="5" y="0.94"/>
-<vertex x="5" y="1.11"/>
-<vertex x="5" y="1.28"/>
-<vertex x="5" y="1.45"/>
-<vertex x="5" y="1.62"/>
-<vertex x="5" y="1.78"/>
-<vertex x="5" y="1.95"/>
-<vertex x="5" y="2.12"/>
-</polygon>
-<polygon width="0.0762" layer="21">
-<vertex x="6.06" y="2.68"/>
-<vertex x="6.45" y="2.89"/>
-<vertex x="6.45" y="1.85"/>
-<vertex x="6.94" y="2.36"/>
-<vertex x="7.4" y="2.36"/>
-<vertex x="6.87" y="1.84"/>
-<vertex x="7.46" y="0.94"/>
-<vertex x="6.99" y="0.94"/>
-<vertex x="6.6" y="1.57"/>
-<vertex x="6.45" y="1.43"/>
-<vertex x="6.45" y="0.94"/>
-<vertex x="6.06" y="0.94"/>
-</polygon>
-<polygon width="0.0762" layer="21">
-<vertex x="7.7" y="2.1"/>
-<vertex x="7.65" y="2.1"/>
-<vertex x="7.6" y="2.1"/>
-<vertex x="7.55" y="2.1"/>
-<vertex x="7.51" y="2.1"/>
-<vertex x="7.46" y="2.1"/>
-<vertex x="7.41" y="2.1"/>
-<vertex x="7.36" y="2.1"/>
-<vertex x="7.31" y="2.1"/>
-<vertex x="7.35" y="2.13"/>
-<vertex x="7.38" y="2.16"/>
-<vertex x="7.41" y="2.19"/>
-<vertex x="7.45" y="2.23"/>
-<vertex x="7.48" y="2.26"/>
-<vertex x="7.51" y="2.29"/>
-<vertex x="7.55" y="2.32"/>
-<vertex x="7.58" y="2.36"/>
-<vertex x="7.59" y="2.36"/>
-<vertex x="7.61" y="2.36"/>
-<vertex x="7.62" y="2.36"/>
-<vertex x="7.64" y="2.36"/>
-<vertex x="7.65" y="2.36"/>
-<vertex x="7.67" y="2.36"/>
-<vertex x="7.68" y="2.36"/>
-<vertex x="7.7" y="2.36"/>
-<vertex x="7.7" y="2.37"/>
-<vertex x="7.7" y="2.38"/>
-<vertex x="7.7" y="2.4"/>
-<vertex x="7.7" y="2.41"/>
-<vertex x="7.7" y="2.42"/>
-<vertex x="7.7" y="2.44"/>
-<vertex x="7.7" y="2.45"/>
-<vertex x="7.7" y="2.46"/>
-<vertex x="7.7" y="2.56"/>
-<vertex x="7.73" y="2.64"/>
-<vertex x="7.76" y="2.71"/>
-<vertex x="7.81" y="2.77"/>
-<vertex x="7.88" y="2.82"/>
-<vertex x="7.96" y="2.86"/>
-<vertex x="8.06" y="2.89"/>
-<vertex x="8.17" y="2.89"/>
-<vertex x="8.2" y="2.89"/>
-<vertex x="8.22" y="2.89"/>
-<vertex x="8.25" y="2.89"/>
-<vertex x="8.27" y="2.89"/>
-<vertex x="8.3" y="2.89"/>
-<vertex x="8.32" y="2.89"/>
-<vertex x="8.35" y="2.89"/>
-<vertex x="8.37" y="2.88"/>
-<vertex x="8.37" y="2.85"/>
-<vertex x="8.37" y="2.81"/>
-<vertex x="8.37" y="2.78"/>
-<vertex x="8.37" y="2.74"/>
-<vertex x="8.37" y="2.7"/>
-<vertex x="8.37" y="2.67"/>
-<vertex x="8.37" y="2.63"/>
-<vertex x="8.37" y="2.6"/>
-<vertex x="8.36" y="2.6"/>
-<vertex x="8.34" y="2.6"/>
-<vertex x="8.32" y="2.6"/>
-<vertex x="8.3" y="2.6"/>
-<vertex x="8.29" y="2.6"/>
-<vertex x="8.27" y="2.6"/>
-<vertex x="8.25" y="2.6"/>
-<vertex x="8.23" y="2.6"/>
-<vertex x="8.2" y="2.6"/>
-<vertex x="8.16" y="2.59"/>
-<vertex x="8.14" y="2.58"/>
-<vertex x="8.12" y="2.57"/>
-<vertex x="8.1" y="2.54"/>
-<vertex x="8.09" y="2.52"/>
-<vertex x="8.09" y="2.48"/>
-<vertex x="8.08" y="2.44"/>
-<vertex x="8.08" y="2.43"/>
-<vertex x="8.08" y="2.42"/>
-<vertex x="8.08" y="2.41"/>
-<vertex x="8.08" y="2.4"/>
-<vertex x="8.08" y="2.39"/>
-<vertex x="8.08" y="2.38"/>
-<vertex x="8.08" y="2.37"/>
-<vertex x="8.08" y="2.36"/>
-<vertex x="8.12" y="2.36"/>
-<vertex x="8.15" y="2.36"/>
-<vertex x="8.19" y="2.36"/>
-<vertex x="8.22" y="2.36"/>
-<vertex x="8.25" y="2.36"/>
-<vertex x="8.29" y="2.36"/>
-<vertex x="8.32" y="2.36"/>
-<vertex x="8.35" y="2.36"/>
-<vertex x="8.35" y="2.32"/>
-<vertex x="8.35" y="2.29"/>
-<vertex x="8.35" y="2.26"/>
-<vertex x="8.35" y="2.23"/>
-<vertex x="8.35" y="2.19"/>
-<vertex x="8.35" y="2.16"/>
-<vertex x="8.35" y="2.13"/>
-<vertex x="8.35" y="2.1"/>
-<vertex x="8.32" y="2.1"/>
-<vertex x="8.29" y="2.1"/>
-<vertex x="8.25" y="2.1"/>
-<vertex x="8.22" y="2.1"/>
-<vertex x="8.19" y="2.1"/>
-<vertex x="8.15" y="2.1"/>
-<vertex x="8.12" y="2.1"/>
-<vertex x="8.08" y="2.1"/>
-<vertex x="8.08" y="1.95"/>
-<vertex x="8.08" y="1.81"/>
-<vertex x="8.08" y="1.66"/>
-<vertex x="8.08" y="1.52"/>
-<vertex x="8.08" y="1.37"/>
-<vertex x="8.08" y="1.23"/>
-<vertex x="8.08" y="1.09"/>
-<vertex x="8.08" y="0.94"/>
-<vertex x="8.04" y="0.94"/>
-<vertex x="7.99" y="0.94"/>
-<vertex x="7.94" y="0.94"/>
-<vertex x="7.89" y="0.94"/>
-<vertex x="7.84" y="0.94"/>
-<vertex x="7.79" y="0.94"/>
-<vertex x="7.74" y="0.94"/>
-<vertex x="7.7" y="0.94"/>
-<vertex x="7.7" y="1.09"/>
-<vertex x="7.7" y="1.23"/>
-<vertex x="7.7" y="1.37"/>
-<vertex x="7.7" y="1.52"/>
-<vertex x="7.7" y="1.66"/>
-<vertex x="7.7" y="1.81"/>
-<vertex x="7.7" y="1.95"/>
-</polygon>
-<polygon width="0.0762" layer="21">
-<vertex x="9.79" y="0.94"/>
-<vertex x="9.74" y="0.94"/>
-<vertex x="9.7" y="0.94"/>
-<vertex x="9.65" y="0.94"/>
-<vertex x="9.6" y="0.94"/>
-<vertex x="9.56" y="0.94"/>
-<vertex x="9.51" y="0.94"/>
-<vertex x="9.47" y="0.94"/>
-<vertex x="9.42" y="0.94"/>
-<vertex x="9.42" y="0.97"/>
-<vertex x="9.42" y="0.99"/>
-<vertex x="9.42" y="1.02"/>
-<vertex x="9.42" y="1.04"/>
-<vertex x="9.42" y="1.06"/>
-<vertex x="9.42" y="1.09"/>
-<vertex x="9.42" y="1.11"/>
-<vertex x="9.42" y="1.14"/>
-<vertex x="9.41" y="1.14"/>
-<vertex x="9.37" y="1.08"/>
-<vertex x="9.33" y="1.03"/>
-<vertex x="9.28" y="0.99"/>
-<vertex x="9.22" y="0.96"/>
-<vertex x="9.17" y="0.94"/>
-<vertex x="9.11" y="0.92"/>
-<vertex x="9.04" y="0.91"/>
-<vertex x="8.98" y="0.9"/>
-<vertex x="8.84" y="0.91"/>
-<vertex x="8.73" y="0.95"/>
-<vertex x="8.64" y="1"/>
-<vertex x="8.57" y="1.06"/>
-<vertex x="8.52" y="1.15"/>
-<vertex x="8.49" y="1.25"/>
-<vertex x="8.47" y="1.36"/>
-<vertex x="8.47" y="1.49"/>
-<vertex x="8.47" y="1.59"/>
-<vertex x="8.47" y="1.7"/>
-<vertex x="8.47" y="1.81"/>
-<vertex x="8.47" y="1.92"/>
-<vertex x="8.47" y="2.03"/>
-<vertex x="8.47" y="2.14"/>
-<vertex x="8.47" y="2.25"/>
-<vertex x="8.47" y="2.36"/>
-<vertex x="8.51" y="2.36"/>
-<vertex x="8.56" y="2.36"/>
-<vertex x="8.61" y="2.36"/>
-<vertex x="8.66" y="2.36"/>
-<vertex x="8.71" y="2.36"/>
-<vertex x="8.76" y="2.36"/>
-<vertex x="8.81" y="2.36"/>
-<vertex x="8.85" y="2.36"/>
-<vertex x="8.85" y="2.26"/>
-<vertex x="8.85" y="2.16"/>
-<vertex x="8.85" y="2.06"/>
-<vertex x="8.85" y="1.96"/>
-<vertex x="8.85" y="1.86"/>
-<vertex x="8.85" y="1.76"/>
-<vertex x="8.85" y="1.66"/>
-<vertex x="8.85" y="1.56"/>
-<vertex x="8.86" y="1.48"/>
-<vertex x="8.87" y="1.4"/>
-<vertex x="8.88" y="1.34"/>
-<vertex x="8.91" y="1.3"/>
-<vertex x="8.94" y="1.26"/>
-<vertex x="8.99" y="1.23"/>
-<vertex x="9.04" y="1.22"/>
-<vertex x="9.1" y="1.21"/>
-<vertex x="9.18" y="1.22"/>
-<vertex x="9.24" y="1.23"/>
-<vertex x="9.29" y="1.26"/>
-<vertex x="9.33" y="1.3"/>
-<vertex x="9.36" y="1.36"/>
-<vertex x="9.39" y="1.43"/>
-<vertex x="9.4" y="1.51"/>
-<vertex x="9.4" y="1.61"/>
-<vertex x="9.4" y="1.71"/>
-<vertex x="9.4" y="1.8"/>
-<vertex x="9.4" y="1.89"/>
-<vertex x="9.4" y="1.98"/>
-<vertex x="9.4" y="2.08"/>
-<vertex x="9.4" y="2.17"/>
-<vertex x="9.4" y="2.26"/>
-<vertex x="9.4" y="2.36"/>
-<vertex x="9.45" y="2.36"/>
-<vertex x="9.5" y="2.36"/>
-<vertex x="9.55" y="2.36"/>
-<vertex x="9.6" y="2.36"/>
-<vertex x="9.65" y="2.36"/>
-<vertex x="9.7" y="2.36"/>
-<vertex x="9.74" y="2.36"/>
-<vertex x="9.79" y="2.36"/>
-<vertex x="9.79" y="2.18"/>
-<vertex x="9.79" y="2"/>
-<vertex x="9.79" y="1.83"/>
-<vertex x="9.79" y="1.65"/>
-<vertex x="9.79" y="1.47"/>
-<vertex x="9.79" y="1.29"/>
-<vertex x="9.79" y="1.12"/>
-</polygon>
-<polygon width="0.0762" layer="21">
-<vertex x="10" y="2.36"/>
-<vertex x="10.05" y="2.36"/>
-<vertex x="10.1" y="2.36"/>
-<vertex x="10.14" y="2.36"/>
-<vertex x="10.19" y="2.36"/>
-<vertex x="10.23" y="2.36"/>
-<vertex x="10.28" y="2.36"/>
-<vertex x="10.33" y="2.36"/>
-<vertex x="10.37" y="2.36"/>
-<vertex x="10.37" y="2.33"/>
-<vertex x="10.37" y="2.31"/>
-<vertex x="10.37" y="2.28"/>
-<vertex x="10.37" y="2.26"/>
-<vertex x="10.37" y="2.23"/>
-<vertex x="10.37" y="2.21"/>
-<vertex x="10.37" y="2.18"/>
-<vertex x="10.37" y="2.16"/>
-<vertex x="10.38" y="2.16"/>
-<vertex x="10.42" y="2.22"/>
-<vertex x="10.46" y="2.26"/>
-<vertex x="10.51" y="2.3"/>
-<vertex x="10.57" y="2.34"/>
-<vertex x="10.63" y="2.36"/>
-<vertex x="10.69" y="2.38"/>
-<vertex x="10.75" y="2.39"/>
-<vertex x="10.81" y="2.39"/>
-<vertex x="10.95" y="2.38"/>
-<vertex x="11.06" y="2.35"/>
-<vertex x="11.15" y="2.3"/>
-<vertex x="11.22" y="2.23"/>
-<vertex x="11.27" y="2.15"/>
-<vertex x="11.3" y="2.05"/>
-<vertex x="11.32" y="1.94"/>
-<vertex x="11.33" y="1.81"/>
-<vertex x="11.33" y="1.7"/>
-<vertex x="11.33" y="1.59"/>
-<vertex x="11.33" y="1.49"/>
-<vertex x="11.33" y="1.38"/>
-<vertex x="11.33" y="1.27"/>
-<vertex x="11.33" y="1.16"/>
-<vertex x="11.33" y="1.05"/>
-<vertex x="11.33" y="0.94"/>
-<vertex x="11.28" y="0.94"/>
-<vertex x="11.23" y="0.94"/>
-<vertex x="11.18" y="0.94"/>
-<vertex x="11.13" y="0.94"/>
-<vertex x="11.08" y="0.94"/>
-<vertex x="11.03" y="0.94"/>
-<vertex x="10.99" y="0.94"/>
-<vertex x="10.94" y="0.94"/>
-<vertex x="10.94" y="1.04"/>
-<vertex x="10.94" y="1.14"/>
-<vertex x="10.94" y="1.24"/>
-<vertex x="10.94" y="1.34"/>
-<vertex x="10.94" y="1.44"/>
-<vertex x="10.94" y="1.54"/>
-<vertex x="10.94" y="1.64"/>
-<vertex x="10.94" y="1.74"/>
-<vertex x="10.93" y="1.82"/>
-<vertex x="10.92" y="1.89"/>
-<vertex x="10.91" y="1.95"/>
-<vertex x="10.88" y="2"/>
-<vertex x="10.85" y="2.04"/>
-<vertex x="10.8" y="2.07"/>
-<vertex x="10.75" y="2.08"/>
-<vertex x="10.69" y="2.09"/>
-<vertex x="10.61" y="2.08"/>
-<vertex x="10.55" y="2.07"/>
-<vertex x="10.5" y="2.04"/>
-<vertex x="10.46" y="1.99"/>
-<vertex x="10.43" y="1.94"/>
-<vertex x="10.4" y="1.87"/>
-<vertex x="10.39" y="1.78"/>
-<vertex x="10.39" y="1.68"/>
-<vertex x="10.39" y="1.59"/>
-<vertex x="10.39" y="1.5"/>
-<vertex x="10.39" y="1.41"/>
-<vertex x="10.39" y="1.31"/>
-<vertex x="10.39" y="1.22"/>
-<vertex x="10.39" y="1.13"/>
-<vertex x="10.39" y="1.03"/>
-<vertex x="10.39" y="0.94"/>
-<vertex x="10.34" y="0.94"/>
-<vertex x="10.29" y="0.94"/>
-<vertex x="10.24" y="0.94"/>
-<vertex x="10.19" y="0.94"/>
-<vertex x="10.14" y="0.94"/>
-<vertex x="10.1" y="0.94"/>
-<vertex x="10.05" y="0.94"/>
-<vertex x="10" y="0.94"/>
-<vertex x="10" y="1.12"/>
-<vertex x="10" y="1.3"/>
-<vertex x="10" y="1.47"/>
-<vertex x="10" y="1.65"/>
-<vertex x="10" y="1.83"/>
-<vertex x="10" y="2"/>
-<vertex x="10" y="2.18"/>
-</polygon>
-<polygon width="0.0762" layer="21">
-<vertex x="8.25" y="4.78"/>
-<vertex x="8.25" y="4.76"/>
-<vertex x="8.25" y="4.73"/>
-<vertex x="8.25" y="4.7"/>
-<vertex x="8.24" y="4.67"/>
-<vertex x="8.23" y="4.64"/>
-<vertex x="8.2" y="4.62"/>
-<vertex x="8.17" y="4.61"/>
-<vertex x="8.14" y="4.61"/>
-<vertex x="8.1" y="4.61"/>
-<vertex x="8.06" y="4.63"/>
-<vertex x="8.02" y="4.65"/>
-<vertex x="7.99" y="4.67"/>
-<vertex x="7.95" y="4.7"/>
-<vertex x="7.92" y="4.72"/>
-<vertex x="7.89" y="4.75"/>
-<vertex x="7.87" y="4.79"/>
-<vertex x="7.85" y="4.82"/>
-<vertex x="7.84" y="4.86"/>
-<vertex x="7.83" y="4.89"/>
-<vertex x="7.84" y="4.92"/>
-<vertex x="7.85" y="4.94"/>
-<vertex x="7.86" y="4.97"/>
-<vertex x="7.88" y="5"/>
-<vertex x="7.92" y="5.03"/>
-<vertex x="7.96" y="5.05"/>
-<vertex x="8.01" y="5.06"/>
-<vertex x="8.05" y="5.07"/>
-<vertex x="8.08" y="5.07"/>
-<vertex x="8.11" y="5.06"/>
-<vertex x="8.13" y="5.06"/>
-<vertex x="8.14" y="5.06"/>
-<vertex x="8.13" y="5.07"/>
-<vertex x="8.09" y="5.1"/>
-<vertex x="8.03" y="5.13"/>
-<vertex x="7.95" y="5.16"/>
-<vertex x="7.86" y="5.19"/>
-<vertex x="7.76" y="5.19"/>
-<vertex x="7.65" y="5.17"/>
-<vertex x="7.54" y="5.11"/>
-<vertex x="7.45" y="5.03"/>
-<vertex x="7.4" y="4.96"/>
-<vertex x="7.37" y="4.87"/>
-<vertex x="7.37" y="4.79"/>
-<vertex x="7.39" y="4.7"/>
-<vertex x="7.44" y="4.61"/>
-<vertex x="7.51" y="4.53"/>
-<vertex x="7.59" y="4.44"/>
-<vertex x="7.66" y="4.36"/>
-<vertex x="7.69" y="4.29"/>
-<vertex x="7.69" y="4.22"/>
-<vertex x="7.67" y="4.16"/>
-<vertex x="7.63" y="4.11"/>
-<vertex x="7.57" y="4.07"/>
-<vertex x="7.49" y="4.05"/>
-<vertex x="7.41" y="4.05"/>
-<vertex x="7.36" y="4.06"/>
-<vertex x="7.31" y="4.08"/>
-<vertex x="7.28" y="4.1"/>
-<vertex x="7.25" y="4.13"/>
-<vertex x="7.23" y="4.17"/>
-<vertex x="7.22" y="4.2"/>
-<vertex x="7.22" y="4.23"/>
-<vertex x="7.23" y="4.26"/>
-<vertex x="7.25" y="4.29"/>
-<vertex x="7.27" y="4.31"/>
-<vertex x="7.29" y="4.33"/>
-<vertex x="7.32" y="4.34"/>
-<vertex x="7.34" y="4.35"/>
-<vertex x="7.36" y="4.36"/>
-<vertex x="7.37" y="4.37"/>
-<vertex x="7.35" y="4.38"/>
-<vertex x="7.33" y="4.38"/>
-<vertex x="7.29" y="4.39"/>
-<vertex x="7.25" y="4.39"/>
-<vertex x="7.21" y="4.39"/>
-<vertex x="7.15" y="4.38"/>
-<vertex x="7.1" y="4.36"/>
-<vertex x="7.05" y="4.34"/>
-<vertex x="7.01" y="4.31"/>
-<vertex x="6.96" y="4.28"/>
-<vertex x="6.93" y="4.23"/>
-<vertex x="6.9" y="4.17"/>
-<vertex x="6.88" y="4.11"/>
-<vertex x="6.87" y="4.02"/>
-<vertex x="6.86" y="3.93"/>
-<vertex x="6.86" y="3.77"/>
-<vertex x="6.86" y="3.61"/>
-<vertex x="6.86" y="3.45"/>
-<vertex x="6.86" y="3.29"/>
-<vertex x="6.86" y="3.13"/>
-<vertex x="6.86" y="2.97"/>
-<vertex x="6.86" y="2.81"/>
-<vertex x="6.86" y="2.65"/>
-<vertex x="6.87" y="2.65"/>
-<vertex x="6.89" y="2.68"/>
-<vertex x="6.92" y="2.71"/>
-<vertex x="6.95" y="2.75"/>
-<vertex x="7" y="2.8"/>
-<vertex x="7.05" y="2.86"/>
-<vertex x="7.11" y="2.92"/>
-<vertex x="7.16" y="2.99"/>
-<vertex x="7.23" y="3.06"/>
-<vertex x="7.29" y="3.12"/>
-<vertex x="7.34" y="3.18"/>
-<vertex x="7.39" y="3.22"/>
-<vertex x="7.44" y="3.26"/>
-<vertex x="7.49" y="3.29"/>
-<vertex x="7.55" y="3.3"/>
-<vertex x="7.62" y="3.3"/>
-<vertex x="7.74" y="3.3"/>
-<vertex x="7.86" y="3.32"/>
-<vertex x="7.97" y="3.35"/>
-<vertex x="8.07" y="3.39"/>
-<vertex x="8.17" y="3.45"/>
-<vertex x="8.25" y="3.52"/>
-<vertex x="8.33" y="3.6"/>
-<vertex x="8.4" y="3.69"/>
-<vertex x="8.5" y="3.87"/>
-<vertex x="8.55" y="4.05"/>
-<vertex x="8.56" y="4.23"/>
-<vertex x="8.53" y="4.39"/>
-<vertex x="8.48" y="4.53"/>
-<vertex x="8.41" y="4.65"/>
-<vertex x="8.33" y="4.74"/>
+<vertex x="3.12" y="4.54"/>
+<vertex x="3.12" y="4.53"/>
+<vertex x="3.12" y="4.49"/>
+<vertex x="3.13" y="4.44"/>
+<vertex x="3.12" y="4.38"/>
+<vertex x="3.11" y="4.32"/>
+<vertex x="3.08" y="4.27"/>
+<vertex x="3.03" y="4.22"/>
+<vertex x="2.96" y="4.19"/>
+<vertex x="2.89" y="4.19"/>
+<vertex x="2.82" y="4.21"/>
+<vertex x="2.75" y="4.23"/>
+<vertex x="2.67" y="4.27"/>
+<vertex x="2.6" y="4.32"/>
+<vertex x="2.53" y="4.37"/>
+<vertex x="2.46" y="4.43"/>
+<vertex x="2.41" y="4.48"/>
+<vertex x="2.36" y="4.56"/>
+<vertex x="2.32" y="4.62"/>
+<vertex x="2.3" y="4.69"/>
+<vertex x="2.29" y="4.75"/>
+<vertex x="2.3" y="4.81"/>
+<vertex x="2.32" y="4.86"/>
+<vertex x="2.35" y="4.92"/>
+<vertex x="2.39" y="4.97"/>
+<vertex x="2.47" y="5.04"/>
+<vertex x="2.55" y="5.08"/>
+<vertex x="2.63" y="5.1"/>
+<vertex x="2.72" y="5.11"/>
+<vertex x="2.79" y="5.11"/>
+<vertex x="2.85" y="5.11"/>
+<vertex x="2.89" y="5.1"/>
+<vertex x="2.9" y="5.1"/>
+<vertex x="2.87" y="5.12"/>
+<vertex x="2.8" y="5.17"/>
+<vertex x="2.68" y="5.24"/>
+<vertex x="2.53" y="5.3"/>
+<vertex x="2.35" y="5.35"/>
+<vertex x="2.15" y="5.36"/>
+<vertex x="1.93" y="5.31"/>
+<vertex x="1.7" y="5.19"/>
+<vertex x="1.53" y="5.05"/>
+<vertex x="1.42" y="4.89"/>
+<vertex x="1.36" y="4.72"/>
+<vertex x="1.36" y="4.55"/>
+<vertex x="1.41" y="4.38"/>
+<vertex x="1.5" y="4.2"/>
+<vertex x="1.63" y="4.03"/>
+<vertex x="1.8" y="3.86"/>
+<vertex x="1.93" y="3.71"/>
+<vertex x="2" y="3.56"/>
+<vertex x="2" y="3.42"/>
+<vertex x="1.96" y="3.29"/>
+<vertex x="1.87" y="3.19"/>
+<vertex x="1.75" y="3.11"/>
+<vertex x="1.61" y="3.07"/>
+<vertex x="1.45" y="3.07"/>
+<vertex x="1.34" y="3.1"/>
+<vertex x="1.25" y="3.13"/>
+<vertex x="1.18" y="3.19"/>
+<vertex x="1.12" y="3.25"/>
+<vertex x="1.09" y="3.31"/>
+<vertex x="1.07" y="3.38"/>
+<vertex x="1.07" y="3.45"/>
+<vertex x="1.09" y="3.51"/>
+<vertex x="1.12" y="3.55"/>
+<vertex x="1.16" y="3.59"/>
+<vertex x="1.21" y="3.63"/>
+<vertex x="1.25" y="3.66"/>
+<vertex x="1.3" y="3.68"/>
+<vertex x="1.34" y="3.7"/>
+<vertex x="1.36" y="3.71"/>
+<vertex x="1.37" y="3.72"/>
+<vertex x="1.36" y="3.72"/>
+<vertex x="1.33" y="3.73"/>
+<vertex x="1.28" y="3.75"/>
+<vertex x="1.21" y="3.76"/>
+<vertex x="1.13" y="3.76"/>
+<vertex x="1.03" y="3.76"/>
+<vertex x="0.93" y="3.74"/>
+<vertex x="0.82" y="3.71"/>
+<vertex x="0.72" y="3.67"/>
+<vertex x="0.63" y="3.61"/>
+<vertex x="0.55" y="3.53"/>
+<vertex x="0.48" y="3.44"/>
+<vertex x="0.42" y="3.33"/>
+<vertex x="0.38" y="3.19"/>
+<vertex x="0.36" y="3.03"/>
+<vertex x="0.35" y="2.84"/>
+<vertex x="0.35" y="2.51"/>
+<vertex x="0.35" y="2.19"/>
+<vertex x="0.35" y="1.87"/>
+<vertex x="0.35" y="1.55"/>
+<vertex x="0.35" y="1.23"/>
+<vertex x="0.35" y="0.91"/>
+<vertex x="0.35" y="0.59"/>
+<vertex x="0.35" y="0.27"/>
+<vertex x="0.36" y="0.29"/>
+<vertex x="0.4" y="0.33"/>
+<vertex x="0.46" y="0.4"/>
+<vertex x="0.53" y="0.49"/>
+<vertex x="0.62" y="0.59"/>
+<vertex x="0.72" y="0.71"/>
+<vertex x="0.83" y="0.83"/>
+<vertex x="0.95" y="0.96"/>
+<vertex x="1.08" y="1.1"/>
+<vertex x="1.19" y="1.23"/>
+<vertex x="1.3" y="1.34"/>
+<vertex x="1.4" y="1.43"/>
+<vertex x="1.5" y="1.5"/>
+<vertex x="1.61" y="1.55"/>
+<vertex x="1.72" y="1.58"/>
+<vertex x="1.86" y="1.58"/>
+<vertex x="2.11" y="1.58"/>
+<vertex x="2.35" y="1.61"/>
+<vertex x="2.57" y="1.67"/>
+<vertex x="2.77" y="1.76"/>
+<vertex x="2.96" y="1.88"/>
+<vertex x="3.13" y="2.01"/>
+<vertex x="3.28" y="2.17"/>
+<vertex x="3.42" y="2.35"/>
+<vertex x="3.61" y="2.72"/>
+<vertex x="3.71" y="3.08"/>
+<vertex x="3.73" y="3.43"/>
+<vertex x="3.68" y="3.76"/>
+<vertex x="3.58" y="4.04"/>
+<vertex x="3.45" y="4.28"/>
+<vertex x="3.28" y="4.45"/>
+<vertex x="3.12" y="4.55"/>
 </polygon>
 </package>
 </packages>
@@ -4622,7 +3711,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="XTAL-08895" x="30.861" y="26.41600625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="JP2" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="11.430003125" y="13.970003125"/>
-<element name="JP3" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="41.417871875" y="34.528121875"/>
+<element name="JP3" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="43.18063125" y="35.5619"/>
 <element name="D1" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="3A/40V/500mV" x="17.145003125" y="14.859">
 <attribute name="PROD_ID" value="DIO-09886" x="17.145003125" y="14.859" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="3A/40V/500mV" x="17.145003125" y="14.859" size="1.778" layer="27" display="off"/>
@@ -4734,7 +3823,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$13" library="newLilypadParts" package="LILYPAD-WEARABLES_LOGO-LILYPAD" value="LILYLOGO_SHORT" x="20.579078125" y="38.717221875"/>
 <element name="U$44" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="SPECIAL_INSTRUCTIONS-ORDERING" x="3.81" y="-19.05"/>
 <element name="U$1" library="newLilypadParts" package="LILYPAD-WEARABLES_LOGO-LILYPAD" value="LILYLOGO_SHORT" x="25.4" y="27.5828125" rot="MR0"/>
-<element name="LOGO6" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="24.892" y="19.304" rot="MR0"/>
+<element name="LOGO6" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="25.527" y="31.623" rot="MR0"/>
 <element name="D10" library="SparkFun-LED" package="PLCC4SMDLED" value="XZM2CRKM2DGFBB45SCCB" x="25.4" y="25.4" rot="R270">
 <attribute name="PROD_ID" value="DIO-13722" x="25.4" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -4742,7 +3831,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="TP6" library="SparkFun-Connectors" package="PAD.03X.03" value="TEST-POINT3" x="19.05" y="41.91" rot="MR0"/>
 <element name="TP7" library="SparkFun-Connectors" package="PAD.03X.03" value="TEST-POINT3" x="36.195" y="14.4859375" rot="MR0"/>
 <element name="TP8" library="SparkFun-Connectors" package="PAD.03X.03" value="TEST-POINT3" x="38.735" y="20.32" rot="MR0"/>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="31.496" y="11.43" rot="MR0"/>
+<element name="JP1" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="11.43" y="13.97" rot="MR0"/>
+<element name="JP4" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="43.18" y="35.56" rot="MR0"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="26.67" y="19.05" rot="MR0"/>
 </elements>
 <signals>
 <signal name="N$2">
@@ -7716,6 +6807,812 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="7,39,e417402d87b46589"/>
 <approved hash="7,39,9acb5dc49e7fd163"/>
 <approved hash="7,39,b34813668af3e8b5"/>
+<approved hash="3,16,ca800b675de00266"/>
+<approved hash="3,1,cc921984f0fc9c3c"/>
+<approved hash="3,1,e4e464206491e455"/>
+<approved hash="1,20,d81cf922ff43de7d"/>
+<approved hash="1,20,b6ed0dd30d59b667"/>
+<approved hash="1,20,dbf50f9b0eecda82"/>
+<approved hash="1,20,99c2d9fcdee59edb"/>
+<approved hash="8,1,7c952f14132a830c"/>
+<approved hash="1,20,d051197f1896d1b8"/>
+<approved hash="8,1,570d3daa5fc5cc04"/>
+<approved hash="1,20,7c83c7a5c68e7da8"/>
+<approved hash="1,20,dc8b23a5228edda0"/>
+<approved hash="1,20,286788098b082b66"/>
+<approved hash="1,20,2253240d248722d9"/>
+<approved hash="1,20,03c1079f0762033c"/>
+<approved hash="1,20,23e5b8dbb99d22a3"/>
+<approved hash="1,20,47c1733f732447da"/>
+<approved hash="1,20,a86b880589dea9b0"/>
+<approved hash="1,20,a8648c0a8c8da8e3"/>
+<approved hash="1,20,303538cb39c0313e"/>
+<approved hash="1,20,1ca9838782d91df7"/>
+<approved hash="1,20,be3d49c34952beac"/>
+<approved hash="1,20,322d6403649d32b3"/>
+<approved hash="1,20,a150c90ecb86a3d8"/>
+<approved hash="1,20,01a0394e39b90157"/>
+<approved hash="1,20,fc23c75dc6e5fd9b"/>
+<approved hash="1,20,1c9b0345017e1ea0"/>
+<approved hash="1,20,60e7f889fa04626a"/>
+<approved hash="1,20,59d879e67acf5af1"/>
+<approved hash="8,16,f1d33c4e9f2a6510"/>
+<approved hash="1,20,73b0278e27787346"/>
+<approved hash="1,20,7c764a484b9d7da3"/>
+<approved hash="1,20,3c6c788e7b013fe3"/>
+<approved hash="1,20,2075784b7940217e"/>
+<approved hash="1,20,a071c64fc1f3a7cd"/>
+<approved hash="1,20,f9c24dfc4ae6fed8"/>
+<approved hash="1,20,68c08e9e8e286876"/>
+<approved hash="8,1,404cc31ca256411e"/>
+<approved hash="1,20,f007e439e64ff271"/>
+<approved hash="1,20,d9ba5c8443f9c6c7"/>
+<approved hash="8,16,c42578e4a8d65247"/>
+<approved hash="8,16,523038416ed267c0"/>
+<approved hash="1,20,e602a63ca625e61b"/>
+<approved hash="1,20,d803f83df825d81b"/>
+<approved hash="1,20,a07918471b43a37d"/>
+<approved hash="1,20,1ca703893c8623a8"/>
+<approved hash="1,20,ffe73ad93b67fe59"/>
+<approved hash="1,20,d803593d4726c618"/>
+<approved hash="1,20,0ba93f473fa10b4f"/>
+<approved hash="1,20,006b0605078c01e2"/>
+<approved hash="1,20,580d89238805592b"/>
+<approved hash="1,20,79c24dfc4ae77ed9"/>
+<approved hash="1,20,0602323c32270619"/>
+<approved hash="1,20,8602323c32268618"/>
+<approved hash="1,20,906b4585445e91b0"/>
+<approved hash="1,20,11f148cf4fca16f4"/>
+<approved hash="1,20,f0c424fa3be1efdf"/>
+<approved hash="1,20,6769d147d18067ae"/>
+<approved hash="1,20,ac72821c81f2af9c"/>
+<approved hash="1,20,58448c228d0c596a"/>
+<approved hash="1,20,eef127cf2752ee6c"/>
+<approved hash="1,20,ec6702090186efe8"/>
+<approved hash="1,20,dc72fa4cfdf0dbce"/>
+<approved hash="1,20,0fbe476047800f5e"/>
+<approved hash="1,20,e666e548e579e657"/>
+<approved hash="1,20,d59b1ee519ced2b0"/>
+<approved hash="1,20,b066055805ceb0f0"/>
+<approved hash="1,20,1fd081be80a71ec9"/>
+<approved hash="1,20,5c717a4f79435f7d"/>
+<approved hash="8,16,6c1866414564bbed"/>
+<approved hash="8,16,09fb62a48b58fb87"/>
+<approved hash="8,16,dac4efe4ed18d82c"/>
+<approved hash="1,20,72168af88ae77209"/>
+<approved hash="1,20,807a181c18a680c0"/>
+<approved hash="1,20,a047c879c964a15a"/>
+<approved hash="1,20,7071264f2544737a"/>
+<approved hash="8,16,02ffa673c5263960"/>
+<approved hash="1,20,49e5198b1a0c4a62"/>
+<approved hash="1,20,5e470e990f265ff8"/>
+<approved hash="1,20,a00744394426a018"/>
+<approved hash="8,16,abad7c9417fda2cd"/>
+<approved hash="8,16,79a6d74fff42f810"/>
+<approved hash="1,20,97fa1f041f2197df"/>
+<approved hash="1,20,407abd44bd8340bd"/>
+<approved hash="1,20,6020240e278763a9"/>
+<approved hash="8,16,b8360f060a96b19e"/>
+<approved hash="1,20,f8404c7e4d66f958"/>
+<approved hash="8,16,2430c83cea155e2d"/>
+<approved hash="8,16,ea8280c19c95a7aa"/>
+<approved hash="1,20,f8f0b89ebfe7ff89"/>
+<approved hash="1,20,a0e564db67a2a39c"/>
+<approved hash="1,20,02030b3d0b50026e"/>
+<approved hash="1,20,5bf2deccdf445a7a"/>
+<approved hash="8,16,cb4d47c1c6c10f9e"/>
+<approved hash="1,20,2d8d02a301802eae"/>
+<approved hash="1,20,fca94ac77523c34d"/>
+<approved hash="1,20,bc2480028144bd62"/>
+<approved hash="1,20,703c390247040e3a"/>
+<approved hash="8,16,040614b1e590f81a"/>
+<approved hash="1,20,5df2c6ccc1405a7e"/>
+<approved hash="8,16,30a8b1988d710c79"/>
+<approved hash="1,20,a8fee5c0e498a9a6"/>
+<approved hash="1,20,fdd685f88588fda6"/>
+<approved hash="1,20,7072d84cd8c070fe"/>
+<approved hash="8,16,193148e82b53fcc4"/>
+<approved hash="1,20,3003243d24263018"/>
+<approved hash="1,20,f85cce62cf41f97f"/>
+<approved hash="1,20,581bd925dacc5bf2"/>
+<approved hash="1,20,5cc7db39dbcd5c33"/>
+<approved hash="1,20,b858043e0527b941"/>
+<approved hash="1,20,a1a50d8b0c82a0ac"/>
+<approved hash="1,20,d83c58022602a63c"/>
+<approved hash="8,16,c5c71476f18b05a3"/>
+<approved hash="1,20,bcef02c104c0baee"/>
+<approved hash="1,20,a0efa489a381a7e7"/>
+<approved hash="1,20,60f945c75ab27f8c"/>
+<approved hash="1,20,f872c84cc8c7f8f9"/>
+<approved hash="8,16,fddda25149e81835"/>
+<approved hash="1,20,1c9c834285421a9c"/>
+<approved hash="1,20,cc1f83618240cd3e"/>
+<approved hash="1,20,b668064606c4b6ea"/>
+<approved hash="1,20,50fda6a3a79d51c3"/>
+<approved hash="1,20,785a4c644d4f7971"/>
+<approved hash="1,20,79f9c8c7c78476ba"/>
+<approved hash="1,20,7071d94fde44777a"/>
+<approved hash="1,20,400388418859401b"/>
+<approved hash="1,20,73c47bfa7ae572db"/>
+<approved hash="1,20,18e8c5d6c6dc1be2"/>
+<approved hash="2,20,f0600194d23d09a3"/>
+<approved hash="2,20,44aee4fb496c6b53"/>
+<approved hash="2,20,0aead6fdfca48fde"/>
+<approved hash="2,20,b54b6acd5a6dfa43"/>
+<approved hash="2,20,d670628d8e4cf46a"/>
+<approved hash="2,20,0f26a5bd67023a77"/>
+<approved hash="2,20,31a1a156592a3fdf"/>
+<approved hash="2,20,7ec22ecb1450a01b"/>
+<approved hash="2,20,422c025bfb946a8b"/>
+<approved hash="2,20,f88eb978c93450ba"/>
+<approved hash="2,20,3ca69db1ce8d38d1"/>
+<approved hash="2,20,12564ffcf6f986bd"/>
+<approved hash="2,20,fda095489936f7c3"/>
+<approved hash="2,20,e82a783ea6abdae0"/>
+<approved hash="2,20,34d9b0b3916ffc70"/>
+<approved hash="2,20,7e671b77f534884e"/>
+<approved hash="2,20,64a5754568669edc"/>
+<approved hash="2,20,5cbe29e016f98659"/>
+<approved hash="2,20,bada0169ca3d26e8"/>
+<approved hash="2,20,3d1ebc5728ea6619"/>
+<approved hash="2,20,08b5a5f8d23679c4"/>
+<approved hash="2,20,28ed67d7911ed919"/>
+<approved hash="2,20,46ae84bdc4bad794"/>
+<approved hash="2,20,82c37cee9d783aa9"/>
+<approved hash="4,1,0439696065ca6623"/>
+<approved hash="4,1,07af2cd782a8e41f"/>
+<approved hash="4,1,c849816c56b55f63"/>
+<approved hash="4,1,278b7af7b71fda71"/>
+<approved hash="4,1,a115cf75f38efa28"/>
+<approved hash="4,1,3d87f1ac1dcf9ddd"/>
+<approved hash="4,1,154e4d263f15b54f"/>
+<approved hash="4,1,499e8e644b7c73aa"/>
+<approved hash="4,1,c88f28e8e6e91cba"/>
+<approved hash="4,1,766e89753ae60cfb"/>
+<approved hash="4,1,4cf824059fc83fc9"/>
+<approved hash="4,1,5efd1264f3d44661"/>
+<approved hash="4,1,c7b6a3d0bd4ed90d"/>
+<approved hash="4,1,654de3d6fc4569f9"/>
+<approved hash="4,1,42ddf65ca4bcd615"/>
+<approved hash="4,1,85fb80462d9e3502"/>
+<approved hash="4,1,ab1f89b1725a8f79"/>
+<approved hash="4,1,1b96fdc003bacec3"/>
+<approved hash="4,1,94dbe378f2b4c6cb"/>
+<approved hash="4,1,42e7e8471caf25a8"/>
+<approved hash="4,1,3cf4f40ed055c0d8"/>
+<approved hash="4,1,8ceb528346903679"/>
+<approved hash="4,1,28bc11fa84b1b572"/>
+<approved hash="4,1,2a25e15f13440ef5"/>
+<approved hash="4,1,6c03ccfc5967b98a"/>
+<approved hash="4,1,00e44e6aa48b268b"/>
+<approved hash="4,1,30aba15f1ceb233c"/>
+<approved hash="4,1,3182d976a3e773a6"/>
+<approved hash="4,1,37714a9e8439e4c9"/>
+<approved hash="4,1,879de0fceb21c338"/>
+<approved hash="5,1,daefbcedd4bf5a70"/>
+<approved hash="5,1,5de9d5f3bde1da61"/>
+<approved hash="5,1,1ba9f32fe3ff1a7f"/>
+<approved hash="5,1,5ae9ddabb579d9f9"/>
+<approved hash="6,1,c24394fa94d5a945"/>
+<approved hash="6,1,41735d73f2c641c6"/>
+<approved hash="6,1,cc709d81f4d000dc"/>
+<approved hash="6,1,468713baa453b05c"/>
+<approved hash="6,1,21f31c2fb82985f5"/>
+<approved hash="6,1,a4f2a7f2acf5aff5"/>
+<approved hash="6,1,8747724afe5dea5c"/>
+<approved hash="6,1,fa6fe96ffd60f660"/>
+<approved hash="6,1,bd6f476fcdc350c2"/>
+<approved hash="6,1,01ff552f0c19952d"/>
+<approved hash="6,1,78285feaba80cd7f"/>
+<approved hash="5,1,da94606f90710eac"/>
+<approved hash="4,1,4d8f20791bb672ce"/>
+<approved hash="4,1,a388f246050ff9c5"/>
+<approved hash="4,1,7debc5b72004bbf0"/>
+<approved hash="4,1,21fc0d65eb998068"/>
+<approved hash="19,1,0e2dbc09bd830fa7"/>
+<approved hash="4,1,c72651fa5058c684"/>
+<approved hash="4,1,035e5a025f67063b"/>
+<approved hash="4,1,f8729dae9e56fb8a"/>
+<approved hash="4,1,f84e9d92a056c58a"/>
+<approved hash="4,1,c72651fa5058c684"/>
+<approved hash="4,1,035e5a025f67063b"/>
+<approved hash="4,1,f8729dae9e56fb8a"/>
+<approved hash="4,1,f84e9d92a056c58a"/>
+<approved hash="19,1,3f6d814384bf3a91"/>
+<approved hash="19,1,9d6f010107829bec"/>
+<approved hash="5,1,d36164791cd2a1f3"/>
+<approved hash="5,1,a3e1217ea62ec80b"/>
+<approved hash="5,1,7020364721e68b3b"/>
+<approved hash="5,1,51a9db791cc29c2b"/>
+<approved hash="5,1,8de23f7e2b2e7508"/>
+<approved hash="5,1,b0a80e791cc2a82a"/>
+<approved hash="5,1,41390e861cb059b4"/>
+<approved hash="5,1,206198861cafaef3"/>
+<approved hash="5,1,e8ef989c5725c54f"/>
+<approved hash="5,1,813925791cc2b2bb"/>
+<approved hash="5,1,a021124651e60f3b"/>
+<approved hash="19,1,488066028d715849"/>
+<approved hash="5,1,b0b8f2a14184133e"/>
+<approved hash="19,1,01dfb6fbb6f301d7"/>
+<approved hash="5,1,84790af60b73222a"/>
+<approved hash="4,1,3b2a61f660493a95"/>
+<approved hash="4,1,0752ae0eab690235"/>
+<approved hash="4,1,087d6da16e590b85"/>
+<approved hash="4,1,08416d9d50593585"/>
+<approved hash="4,1,3b2a61f660493a95"/>
+<approved hash="4,1,0752ae0eab690235"/>
+<approved hash="4,1,087d6da16e590b85"/>
+<approved hash="4,1,08416d9d50593585"/>
+<approved hash="4,1,5d60e67abd8c0199"/>
+<approved hash="4,1,66b845b5f12941ec"/>
+<approved hash="4,1,f6082b1c08e50dea"/>
+<approved hash="4,1,c2cb91c1b71c5a8f"/>
+<approved hash="19,1,8a3304ecf7336dfa"/>
+<approved hash="19,1,06f0049a0614047e"/>
+<approved hash="19,1,e72d04c7040ae7e0"/>
+<approved hash="19,1,9f53153161377d41"/>
+<approved hash="19,1,98bd88f4391c9fe1"/>
+<approved hash="19,1,8b8552a240041754"/>
+<approved hash="19,1,4598a7f2a6d644bc"/>
+<approved hash="19,1,17fff892c08a2fe7"/>
+<approved hash="19,1,878b01950db18baf"/>
+<approved hash="19,1,4c2f8d358c184d02"/>
+<approved hash="19,1,d8b070b2570db596"/>
+<approved hash="19,1,18284f6845201906"/>
+<approved hash="19,1,0a7ce90a64be59bc"/>
+<approved hash="19,1,04af92e77d80df96"/>
+<approved hash="19,1,bd2e8b008af9bcd7"/>
+<approved hash="19,1,a497f64ac7800b05"/>
+<approved hash="19,1,8f2363e29ef23e6a"/>
+<approved hash="19,1,05f7e94a8186e328"/>
+<approved hash="19,1,7f0d56e7567a7f90"/>
+<approved hash="19,1,f1ce402a61d91875"/>
+<approved hash="5,1,2b6c0b69452d541e"/>
+<approved hash="5,1,48974942c77cf5a3"/>
+<approved hash="5,1,40d932bf10891731"/>
+<approved hash="19,1,4f8372f852fa847e"/>
+<approved hash="19,1,9be9abd0d5f661f7"/>
+<approved hash="5,1,10045220ce602eb6"/>
+<approved hash="5,1,e430c39655d9296c"/>
+<approved hash="5,1,8c71143b44ac6f41"/>
+<approved hash="5,1,0de3b58c4295e49d"/>
+<approved hash="5,1,8faa305125002d96"/>
+<approved hash="5,1,32eb9b8569bfe7f0"/>
+<approved hash="5,1,4ee5a80fa7bdd2ad"/>
+<approved hash="5,1,48c3c92f9a583ad6"/>
+<approved hash="19,1,87250f6b46700447"/>
+<approved hash="5,1,54c9b8e4fbef69b8"/>
+<approved hash="5,1,f0d6d0d6be2c2d1b"/>
+<approved hash="5,1,932c92fdc17cf7a7"/>
+<approved hash="5,1,90502fb61b7213f9"/>
+<approved hash="5,1,93890bde7adf512f"/>
+<approved hash="5,1,b8a098bc412d5007"/>
+<approved hash="5,1,db5bda97c37cf1ba"/>
+<approved hash="5,1,2ba50bbc452d5402"/>
+<approved hash="5,1,485e4997c77cf5bf"/>
+<approved hash="5,1,8be113bf45bf6e46"/>
+<approved hash="5,1,883437db24112c93"/>
+<approved hash="5,1,f33fd32bba2e290d"/>
+<approved hash="5,1,90c79102c57cf3b3"/>
+<approved hash="5,1,902a2fc01d5115d6"/>
+<approved hash="5,1,ef476ec91cbebc52"/>
+<approved hash="5,1,93f10baa7cf85704"/>
+<approved hash="5,1,b8879897412d500b"/>
+<approved hash="5,1,db7cdabcc37cf1b6"/>
+<approved hash="5,1,e4c976b934429c0b"/>
+<approved hash="5,1,40e1205cae4e724e"/>
+<approved hash="5,1,0b59a3b93442a69b"/>
+<approved hash="5,1,05c8a3b93442a80a"/>
+<approved hash="5,1,6701c8b93452a1d3"/>
+<approved hash="5,1,9021c864d5873179"/>
+<approved hash="5,1,1c89837c08fc7a2f"/>
+<approved hash="5,1,412111645e86b27e"/>
+<approved hash="5,1,950136b93452add3"/>
+<approved hash="5,1,345988b93442b29b"/>
+<approved hash="5,1,6fe23f5c224fce4a"/>
+<approved hash="19,1,2226842484262224"/>
+<approved hash="6,1,4a484a46cd5c4f68"/>
+<approved hash="6,1,d31d37372b707de8"/>
+<approved hash="6,1,449b688fbfa4e932"/>
+<approved hash="6,1,dae4302d97a018e1"/>
+<approved hash="6,1,2d65bc7fdd91d61c"/>
+<approved hash="6,1,6ab6f50a61741751"/>
+<approved hash="6,1,67433f1035968567"/>
+<approved hash="6,1,9af600b2d7e22fd6"/>
+<approved hash="6,1,c51940920a10d37a"/>
+<approved hash="6,1,a516bf14201f9547"/>
+<approved hash="6,1,c3b6c2c9d6d9d7a6"/>
+<approved hash="6,1,00a6161f388e6176"/>
+<approved hash="6,1,e5861da780c9ca5c"/>
+<approved hash="6,1,778170e215f21291"/>
+<approved hash="6,1,724a16ed5a7377e8"/>
+<approved hash="6,1,980a80d18e0c74fa"/>
+<approved hash="6,1,f2f1f14e635e60e1"/>
+<approved hash="6,1,82a3a565bcb57ddc"/>
+<approved hash="6,1,c174c2519209912c"/>
+<approved hash="6,1,f65ee81ae6fba966"/>
+<approved hash="6,1,235021ebb663b4d8"/>
+<approved hash="6,1,e171e14752575261"/>
+<approved hash="6,1,d386d0e331f33296"/>
+<approved hash="6,1,a006a10a741a7516"/>
+<approved hash="6,1,6e6e240d8150f153"/>
+<approved hash="6,1,9671962d333d3361"/>
+<approved hash="6,1,273f1566c135fe1f"/>
+<approved hash="6,1,12bf1041755177af"/>
+<approved hash="6,1,e2f1e14e355e36e1"/>
+<approved hash="6,1,220812cf2af10ca0"/>
+<approved hash="6,1,79130bd2ab17ed11"/>
+<approved hash="6,1,02122d05aa43cb90"/>
+<approved hash="6,1,e8ffc4f9d7475c56"/>
+<approved hash="6,1,b62b86802b981b33"/>
+<approved hash="6,1,e2ffebbb2e3df5fc"/>
+<approved hash="6,1,bb787e9ec14f47db"/>
+<approved hash="6,1,56f12ba4313148f3"/>
+<approved hash="6,1,94eff69ba0d21cfd"/>
+<approved hash="6,1,f076e75ef2c23d7b"/>
+<approved hash="6,1,fcaabf0f51654074"/>
+<approved hash="6,1,e973c5d0ef1eb250"/>
+<approved hash="6,1,277b22c2fcc2f97b"/>
+<approved hash="6,1,40499be90e73d6e7"/>
+<approved hash="6,1,423c336858030096"/>
+<approved hash="6,1,1d212cd8ddc9e4f8"/>
+<approved hash="6,1,4e3562f98e8ed9f3"/>
+<approved hash="6,1,ab972528e1b7755c"/>
+<approved hash="6,1,868a0a0bf644ca72"/>
+<approved hash="6,1,88e388e33d4ca088"/>
+<approved hash="6,1,680ecb099db3d7a8"/>
+<approved hash="6,1,1bded87a070fa302"/>
+<approved hash="6,1,f5007d89629e5b20"/>
+<approved hash="6,1,858d2cb797703ca8"/>
+<approved hash="6,1,50a3514d00f0f0bd"/>
+<approved hash="6,1,50de3ee255ba3b86"/>
+<approved hash="6,1,176ab93efd867d4f"/>
+<approved hash="6,1,3aca416ebb4b4111"/>
+<approved hash="6,1,f019d185cdb1264e"/>
+<approved hash="6,1,b595a3b9c472a52e"/>
+<approved hash="6,1,e64f779ba5f62c57"/>
+<approved hash="6,1,7704770575057504"/>
+<approved hash="6,1,65af60328202879f"/>
+<approved hash="6,1,d7a96002fdbc29f0"/>
+<approved hash="6,1,bd46b212f0e4bf42"/>
+<approved hash="6,1,5466afa77aca8c04"/>
+<approved hash="6,1,ff01645935002c31"/>
+<approved hash="6,1,079fd2066c4a89f8"/>
+<approved hash="6,1,39d67b0ad45ab7bc"/>
+<approved hash="6,1,e2c1e5326e6a6999"/>
+<approved hash="6,1,8c8bb15eb84d4222"/>
+<approved hash="6,1,8f31ad5a4542f154"/>
+<approved hash="6,1,307752cdc9021721"/>
+<approved hash="6,1,3a49db6ddda4ed67"/>
+<approved hash="6,1,ac4f8b3ed3373f96"/>
+<approved hash="6,1,92c4f2c79574bbe2"/>
+<approved hash="6,1,3a859b9bb6715822"/>
+<approved hash="6,1,34780b190b193478"/>
+<approved hash="6,1,79b841e01ae76142"/>
+<approved hash="6,1,1c1d76c7e68628be"/>
+<approved hash="6,1,d9761c52fc0a70a8"/>
+<approved hash="6,1,2f7169ea8d481d83"/>
+<approved hash="6,1,527f69cd7a84c239"/>
+<approved hash="6,1,15d907073dae85f7"/>
+<approved hash="6,1,26f83ed3ae7bb650"/>
+<approved hash="6,1,761fdf9c7e240963"/>
+<approved hash="6,1,4340bd9abc2a66ca"/>
+<approved hash="6,1,fe45370f8e87bb63"/>
+<approved hash="6,1,cab3c4d9b2a2ee24"/>
+<approved hash="6,1,a16f71bc17fd3d48"/>
+<approved hash="6,1,c095a33f664295ac"/>
+<approved hash="6,1,6b3a6bb77eb77e3a"/>
+<approved hash="6,1,25e7298c7d095e58"/>
+<approved hash="6,1,bfff1e7b60c156e9"/>
+<approved hash="6,1,be08a8c9330487c7"/>
+<approved hash="6,1,2db8c07a2c146da3"/>
+<approved hash="6,1,4dabfed26202d90c"/>
+<approved hash="6,1,a2508139cbedcdbf"/>
+<approved hash="6,1,774a7e24c0ecc982"/>
+<approved hash="6,1,d72eb0c44031121f"/>
+<approved hash="6,1,3a7ea091e55215da"/>
+<approved hash="6,1,44dd18302ccdc2dd"/>
+<approved hash="6,1,c9badb1e7305590b"/>
+<approved hash="6,1,7f99e8c82281a96e"/>
+<approved hash="6,1,14e1da5401b494b2"/>
+<approved hash="6,1,f232f208fc08fc32"/>
+<approved hash="6,1,c0fde1e8178a6eec"/>
+<approved hash="6,1,96e3b2dd88c1a852"/>
+<approved hash="6,1,abc500c44f5c24f1"/>
+<approved hash="6,1,9619691e688354fa"/>
+<approved hash="6,1,09be10acebe974b8"/>
+<approved hash="6,1,586be4da5d8d567d"/>
+<approved hash="6,1,c16cfcc41f7c22d4"/>
+<approved hash="6,1,aa218b5d42f204fc"/>
+<approved hash="6,1,e70c45751fe9acf6"/>
+<approved hash="6,1,715a2d569dcb5ddf"/>
+<approved hash="6,1,ad5aeb7dedf32007"/>
+<approved hash="6,1,91e36b79b154b263"/>
+<approved hash="6,1,a474a35641564674"/>
+<approved hash="6,1,a90a93ab7b1e407d"/>
+<approved hash="6,1,8f1d7c4ae8b4b22e"/>
+<approved hash="6,1,4b20bf010b3f6463"/>
+<approved hash="6,1,7204f028763f799a"/>
+<approved hash="6,1,3da3e990c4f790ed"/>
+<approved hash="6,1,1d8aca2a3b1bec3d"/>
+<approved hash="6,1,08fa1781a109be72"/>
+<approved hash="6,1,81a2fe4c04ab7a78"/>
+<approved hash="6,1,60eeb82762854bd9"/>
+<approved hash="6,1,69a30e212ddac389"/>
+<approved hash="6,1,9872507306d12f98"/>
+<approved hash="6,1,fcd4593f50298ee1"/>
+<approved hash="6,1,427b452af52af27b"/>
+<approved hash="6,1,fff03c760f28d863"/>
+<approved hash="6,1,5cc25e194c0469cd"/>
+<approved hash="6,1,033bfab12a97bf6f"/>
+<approved hash="6,1,fa293b34475b74b5"/>
+<approved hash="6,1,80b2a81220dcab1e"/>
+<approved hash="6,1,e57e25eaced7a2ff"/>
+<approved hash="6,1,d0e0cfa422dc3d98"/>
+<approved hash="6,1,abf9030cf57b8165"/>
+<approved hash="6,1,deaeb5171e77202a"/>
+<approved hash="6,1,46083033efc38e8b"/>
+<approved hash="6,1,b0e6ea2840393737"/>
+<approved hash="6,1,3d804d99d3aa8835"/>
+<approved hash="6,1,6bf46fd67ad67ef4"/>
+<approved hash="6,1,1e6ae48b19de80b1"/>
+<approved hash="6,1,6a98fe736f6805a0"/>
+<approved hash="6,1,fa016b70e2dd9be2"/>
+<approved hash="6,1,ca3d5a383944cf2d"/>
+<approved hash="6,1,727aca28fc890ebb"/>
+<approved hash="6,1,49b228c43742367e"/>
+<approved hash="6,1,a944949a8712bacc"/>
+<approved hash="6,1,5b101ddbed333e74"/>
+<approved hash="6,1,ed1d76cc797b3e20"/>
+<approved hash="6,1,866110bfe39af334"/>
+<approved hash="6,1,8b2007a2d28034ac"/>
+<approved hash="6,1,b336d0a0e583bfba"/>
+<approved hash="6,1,a474a35781578674"/>
+<approved hash="6,1,7e521fb512cfa154"/>
+<approved hash="6,1,6278c897a7271c00"/>
+<approved hash="6,1,5e198ca8b489bc2b"/>
+<approved hash="6,1,d85b50e2428d7b72"/>
+<approved hash="6,1,1d93549485be38b8"/>
+<approved hash="6,1,6769e5c42051b0e7"/>
+<approved hash="6,1,a1d0317ff5623c47"/>
+<approved hash="6,1,bf43b63d809d89e3"/>
+<approved hash="6,1,eb36f5dff5864d73"/>
+<approved hash="6,1,0927e8ad49ded1ef"/>
+<approved hash="6,1,6435af91e49b37c9"/>
+<approved hash="6,1,915de113ab157b09"/>
+<approved hash="6,1,015e5dc027f92d16"/>
+<approved hash="6,1,d186d30975097786"/>
+<approved hash="6,1,a02ca6160efc3e64"/>
+<approved hash="6,1,6d22c09a19c818bb"/>
+<approved hash="6,1,ea76075a66cc3a64"/>
+<approved hash="6,1,67c50306966fefa0"/>
+<approved hash="6,1,dadd636115c2301c"/>
+<approved hash="6,1,6f7189813da3f7ae"/>
+<approved hash="6,1,52e8551f0e5f09a8"/>
+<approved hash="6,1,0e35acf2234f00c9"/>
+<approved hash="6,1,7de77122c4c32037"/>
+<approved hash="6,1,9882dc6e5e2aa811"/>
+<approved hash="6,1,a8abd59c816c7601"/>
+<approved hash="6,1,143f65e858226f4d"/>
+<approved hash="6,1,ffcc6f9591e2acb4"/>
+<approved hash="6,1,dd8fa9a7d8f176c3"/>
+<approved hash="6,1,77b475b3c769c56e"/>
+<approved hash="6,1,6bf56b477e477ef5"/>
+<approved hash="6,1,23e34d1a09a8e7ed"/>
+<approved hash="6,1,b0e8de6fa8322201"/>
+<approved hash="6,1,08820e9b4750f907"/>
+<approved hash="6,1,edf08e1fa7bf98b4"/>
+<approved hash="6,1,7363e8dfc1fff3fd"/>
+<approved hash="6,1,a44a63255e1e77e3"/>
+<approved hash="6,1,adf2b5e826083e12"/>
+<approved hash="6,1,4c67f12ade94aaa6"/>
+<approved hash="6,1,270684c7b5250303"/>
+<approved hash="6,1,fefc53b721cd9a5e"/>
+<approved hash="6,1,7483524247a10e0f"/>
+<approved hash="6,1,278e50e1985e8190"/>
+<approved hash="6,1,8100663d5bb5eb7e"/>
+<approved hash="6,1,c7b2dbb465b479b2"/>
+<approved hash="6,1,66059d9a004e58f6"/>
+<approved hash="6,1,a023fd21e2a4313d"/>
+<approved hash="6,1,0aa62f6680dab8e7"/>
+<approved hash="6,1,5198ac44c743fcb5"/>
+<approved hash="6,1,615fc21b6d8ebaed"/>
+<approved hash="6,1,61a013093a0ec49c"/>
+<approved hash="6,1,00c56ed895f8fbe5"/>
+<approved hash="6,1,db5af150cabfe76b"/>
+<approved hash="6,1,80d20fbad08516d8"/>
+<approved hash="6,1,823ce11673775874"/>
+<approved hash="6,1,3554b2a136b84b4b"/>
+<approved hash="6,1,7d94cff47ea85e18"/>
+<approved hash="6,1,c385c3807e807e85"/>
+<approved hash="6,1,d9e5e97f53b7632d"/>
+<approved hash="6,1,db718944bc033594"/>
+<approved hash="6,1,9c3b94564db4f5ad"/>
+<approved hash="6,1,b9de8cbd51224b78"/>
+<approved hash="6,1,f7f5b53f57cd35f7"/>
+<approved hash="6,1,a2939b6e4679e971"/>
+<approved hash="6,1,3fa11bce1bde8fa9"/>
+<approved hash="6,1,b772b482b682b572"/>
+<approved hash="4,16,0439696065ca6623"/>
+<approved hash="4,16,443774298d88bf61"/>
+<approved hash="4,16,c46eec7f1c6dd455"/>
+<approved hash="4,16,278b7af7b71fda71"/>
+<approved hash="4,16,07ab90f5851bdbed"/>
+<approved hash="4,16,3d87f1ac1dcf9ddd"/>
+<approved hash="4,16,6f9bea0b84a87215"/>
+<approved hash="4,16,499e8e644b7c73aa"/>
+<approved hash="4,16,ded27bd73941cc4c"/>
+<approved hash="4,16,766e89753ae60cfb"/>
+<approved hash="4,16,74029c4a89e307ce"/>
+<approved hash="4,16,5efd1264f3d44661"/>
+<approved hash="4,16,689d67c9c551f7b9"/>
+<approved hash="4,16,654de3d6fc4569f9"/>
+<approved hash="4,16,180d84a08f1ab913"/>
+<approved hash="4,16,1b96fdc003bacec3"/>
+<approved hash="4,16,8e9019688b2cd1e7"/>
+<approved hash="4,16,5bd4aa563e8fedfd"/>
+<approved hash="4,16,3cf4f40ed055c0d8"/>
+<approved hash="4,16,8dc75c2334b426fc"/>
+<approved hash="4,16,28bc11fa84b1b572"/>
+<approved hash="4,16,c97aec1d04d00e22"/>
+<approved hash="4,16,d5207e40de5bf2ca"/>
+<approved hash="4,16,2d618a1b01b414db"/>
+<approved hash="4,16,30aba15f1ceb233c"/>
+<approved hash="4,16,3182d976a3e773a6"/>
+<approved hash="4,16,37714a9e8439e4c9"/>
+<approved hash="4,16,879de0fceb21c338"/>
+<approved hash="19,16,1e3e00007c00623e"/>
+<approved hash="19,16,19be078004001a3e"/>
+<approved hash="19,16,59bc8782840c5a32"/>
+<approved hash="19,16,5e3c8002fc0c2232"/>
+<approved hash="4,16,261fddf1c1f43a1a"/>
+<approved hash="4,16,21b969d76b9423fa"/>
+<approved hash="4,16,1428eac6eaea1404"/>
+<approved hash="4,16,14c8ea26e8da1634"/>
+<approved hash="4,16,c72651fa5058c684"/>
+<approved hash="4,16,035e5a025f67063b"/>
+<approved hash="4,16,f8729dae9e56fb8a"/>
+<approved hash="4,16,f84e9d92a056c58a"/>
+<approved hash="19,16,0dbedb80d8020e3c"/>
+<approved hash="19,16,0a3edc00a002763c"/>
+<approved hash="4,16,3b2a61f660493a95"/>
+<approved hash="4,16,0752ae0eab690235"/>
+<approved hash="4,16,087d6da16e590b85"/>
+<approved hash="4,16,08416d9d50593585"/>
+<approved hash="4,16,19e4698a6bc81ba6"/>
+<approved hash="4,16,1a036a6d766a0604"/>
+<approved hash="4,16,38d46a3a68c43a2a"/>
+<approved hash="4,16,3807eae9eae63808"/>
+<approved hash="19,16,953e81008d3c9902"/>
+<approved hash="19,16,273c83028720231e"/>
+<approved hash="6,16,c6084a1e5c0cce7f"/>
+<approved hash="6,16,d23c33e5744dbb2e"/>
+<approved hash="6,16,aaa8005d09813e24"/>
+<approved hash="6,16,c1fe82c77a110c2c"/>
+<approved hash="6,16,8a0c223cd19052c5"/>
+<approved hash="6,16,82a5b7885293704f"/>
+<approved hash="6,16,689b8d9118f05cea"/>
+<approved hash="6,16,9aa8c798e89bb1b0"/>
+<approved hash="6,16,45640c004f001388"/>
+<approved hash="6,16,c7aeca5e15ead194"/>
+<approved hash="6,16,8285ef7729a80018"/>
+<approved hash="6,16,3358da14ce6d029b"/>
+<approved hash="6,16,6c8c6cd438be3cb7"/>
+<approved hash="6,16,d804304687688f90"/>
+<approved hash="6,16,4603e48a32438508"/>
+<approved hash="6,16,851f8000d9f0dcef"/>
+<approved hash="6,16,a5e2a128361832d2"/>
+<approved hash="6,16,e81ae6fb98e791fc"/>
+<approved hash="6,16,b62b86802b981b33"/>
+<approved hash="6,16,e2ffebbb2e3df5fc"/>
+<approved hash="6,16,f076e75ef2c23d7b"/>
+<approved hash="6,16,41b5cf5a15d275b4"/>
+<approved hash="6,16,3f75002b0956c196"/>
+<approved hash="6,16,bb787e9ec14f47db"/>
+<approved hash="6,16,277b22c2fcc2f97b"/>
+<approved hash="6,16,1cd39fb0ea21e37c"/>
+<approved hash="6,16,40499be90e73d6e7"/>
+<approved hash="6,16,1d212cd8ddc9e4f8"/>
+<approved hash="6,16,533d20954a756690"/>
+<approved hash="6,16,4e3562f98e8ed9f3"/>
+<approved hash="6,16,8e8702009358cb74"/>
+<approved hash="6,16,ab972528e1b7755c"/>
+<approved hash="6,16,88e388e33d4ca088"/>
+<approved hash="6,16,1bded87a070fa302"/>
+<approved hash="6,16,6903f53b8bb7d5a8"/>
+<approved hash="6,16,f5007d89629e5b20"/>
+<approved hash="6,16,a2af9e450d0ff8a1"/>
+<approved hash="6,16,858d2cb797703ca8"/>
+<approved hash="6,16,50de3ee255ba3b86"/>
+<approved hash="6,16,176ab93efd867d4f"/>
+<approved hash="6,16,e64f779ba5f62c57"/>
+<approved hash="6,16,03e9b192c2ac8be1"/>
+<approved hash="6,16,9c1564379b1bbd0c"/>
+<approved hash="6,16,3aca416ebb4b4111"/>
+<approved hash="6,16,4e7d4387f7faba08"/>
+<approved hash="6,16,4f86c1474a3e8944"/>
+<approved hash="6,16,7704770575057504"/>
+<approved hash="6,16,e0f5f86292e1f19e"/>
+<approved hash="6,16,d7a96002fdbc29f0"/>
+<approved hash="6,16,5466afa77aca8c04"/>
+<approved hash="6,16,a5585414dbf58302"/>
+<approved hash="6,16,ff01645935002c31"/>
+<approved hash="6,16,0e954139cb40b2a1"/>
+<approved hash="6,16,079fd2066c4a89f8"/>
+<approved hash="6,16,e013e28082808013"/>
+<approved hash="6,16,e2c1e5326e6a6999"/>
+<approved hash="6,16,8c8bb15eb84d4222"/>
+<approved hash="6,16,ac4f8b3ed3373f96"/>
+<approved hash="6,16,a2155f546ebb72da"/>
+<approved hash="6,16,dc6b45fa94e95d35"/>
+<approved hash="6,16,8f31ad5a4542f154"/>
+<approved hash="6,16,34780b190b193478"/>
+<approved hash="6,16,8a9a01f98be8f3c5"/>
+<approved hash="6,16,e94c4b720d92312d"/>
+<approved hash="6,16,79b841e01ae76142"/>
+<approved hash="6,16,d9761c52fc0a70a8"/>
+<approved hash="6,16,00224dc7f08143b4"/>
+<approved hash="6,16,2f7169ea8d481d83"/>
+<approved hash="6,16,ffdcfe063bad83f8"/>
+<approved hash="6,16,527f69cd7a84c239"/>
+<approved hash="6,16,26f83ed3ae7bb650"/>
+<approved hash="6,16,761fdf9c7e240963"/>
+<approved hash="6,16,a16f71bc17fd3d48"/>
+<approved hash="6,16,821eaa5fa33482ae"/>
+<approved hash="6,16,d8a8b214fbbd8a23"/>
+<approved hash="6,16,4340bd9abc2a66ca"/>
+<approved hash="6,16,6b3a6bb77eb77e3a"/>
+<approved hash="6,16,c205fc4eb205bbec"/>
+<approved hash="6,16,25e7298c7d095e58"/>
+<approved hash="6,16,be08a8c9330487c7"/>
+<approved hash="6,16,cff9249468c35df4"/>
+<approved hash="6,16,2db8c07a2c146da3"/>
+<approved hash="6,16,c8549f37ecf5cfba"/>
+<approved hash="6,16,4dabfed26202d90c"/>
+<approved hash="6,16,774a7e24c0ecc982"/>
+<approved hash="6,16,d72eb0c44031121f"/>
+<approved hash="6,16,7f99e8c82281a96e"/>
+<approved hash="6,16,d03ce02a117f757a"/>
+<approved hash="6,16,6de3efe1c91048d5"/>
+<approved hash="6,16,3a7ea091e55215da"/>
+<approved hash="6,16,f232f208fc08fc32"/>
+<approved hash="6,16,1f7a0d047f038785"/>
+<approved hash="6,16,11e3ccbc1a3baec0"/>
+<approved hash="6,16,c0fde1e8178a6eec"/>
+<approved hash="6,16,abc500c44f5c24f1"/>
+<approved hash="6,16,9aeea3dc7ccda453"/>
+<approved hash="6,16,9619691e688354fa"/>
+<approved hash="6,16,a262e1d4418f5070"/>
+<approved hash="6,16,09be10acebe974b8"/>
+<approved hash="6,16,c16cfcc41f7c22d4"/>
+<approved hash="6,16,aa218b5d42f204fc"/>
+<approved hash="6,16,91e36b79b154b263"/>
+<approved hash="6,16,a34c794c37d45b6a"/>
+<approved hash="6,16,4e9ce99bd0695f16"/>
+<approved hash="6,16,e70c45751fe9acf6"/>
+<approved hash="6,16,6a692953422b8bc8"/>
+<approved hash="6,16,477b0b65595c8b72"/>
+<approved hash="6,16,a474a35641564674"/>
+<approved hash="6,16,0d30c5fcbe47dc8e"/>
+<approved hash="6,16,a90a93ab7b1e407d"/>
+<approved hash="6,16,4b20bf010b3f6463"/>
+<approved hash="6,16,84131c77858bb727"/>
+<approved hash="6,16,7204f028763f799a"/>
+<approved hash="6,16,19c0de1b231ee83c"/>
+<approved hash="6,16,3da3e990c4f790ed"/>
+<approved hash="6,16,08fa1781a109be72"/>
+<approved hash="6,16,81a2fe4c04ab7a78"/>
+<approved hash="6,16,fcd4593f50298ee1"/>
+<approved hash="6,16,1314f75988aba287"/>
+<approved hash="6,16,8f7805dd08c51744"/>
+<approved hash="6,16,60eeb82762854bd9"/>
+<approved hash="6,16,20ff0c743f90e6e6"/>
+<approved hash="6,16,427b452af52af27b"/>
+<approved hash="6,16,cff94e73b0c238fc"/>
+<approved hash="6,16,fff03c760f28d863"/>
+<approved hash="6,16,033bfab12a97bf6f"/>
+<approved hash="6,16,53da76174e64689a"/>
+<approved hash="6,16,fa293b34475b74b5"/>
+<approved hash="6,16,fc774fefb52eabf8"/>
+<approved hash="6,16,80b2a81220dcab1e"/>
+<approved hash="6,16,d0e0cfa422dc3d98"/>
+<approved hash="6,16,abf9030cf57b8165"/>
+<approved hash="6,16,3d804d99d3aa8835"/>
+<approved hash="6,16,4647c2cf5993c3a3"/>
+<approved hash="6,16,c719e5937a1e14b6"/>
+<approved hash="6,16,deaeb5171e77202a"/>
+<approved hash="6,16,7417a22470e195cb"/>
+<approved hash="6,16,6bf46fd67ad67ef4"/>
+<approved hash="6,16,386e90160ee51bbc"/>
+<approved hash="6,16,1e6ae48b19de80b1"/>
+<approved hash="6,16,fa016b70e2dd9be2"/>
+<approved hash="6,16,6a9fe8427a6f32bf"/>
+<approved hash="6,16,ca3d5a383944cf2d"/>
+<approved hash="6,16,7b6c10732d6d3f63"/>
+<approved hash="6,16,727aca28fc890ebb"/>
+<approved hash="6,16,a944949a8712bacc"/>
+<approved hash="6,16,5b101ddbed333e74"/>
+<approved hash="6,16,b336d0a0e583bfba"/>
+<approved hash="6,16,f74ada33c7d00db1"/>
+<approved hash="6,16,b22daa7e01ccc440"/>
+<approved hash="6,16,ed1d76cc797b3e20"/>
+<approved hash="6,16,145c124ef8e2d6c0"/>
+<approved hash="6,16,1e3ad3ac269a67c6"/>
+<approved hash="6,16,a474a35781578674"/>
+<approved hash="6,16,4dd8141fcca7b76f"/>
+<approved hash="6,16,7e521fb512cfa154"/>
+<approved hash="6,16,5e198ca8b489bc2b"/>
+<approved hash="6,16,6e74cda392642522"/>
+<approved hash="6,16,d85b50e2428d7b72"/>
+<approved hash="6,16,447027c002b8abe4"/>
+<approved hash="6,16,1d93549485be38b8"/>
+<approved hash="6,16,bf43b63d809d89e3"/>
+<approved hash="6,16,eb36f5dff5864d73"/>
+<approved hash="6,16,015e5dc027f92d16"/>
+<approved hash="6,16,e0171b63c97e3f05"/>
+<approved hash="6,16,4a54b5be94ed1b41"/>
+<approved hash="6,16,0927e8ad49ded1ef"/>
+<approved hash="6,16,7a021bfac5c9d5ea"/>
+<approved hash="6,16,8388f9a775dd5006"/>
+<approved hash="6,16,d186d30975097786"/>
+<approved hash="6,16,a3fcff52e8c54253"/>
+<approved hash="6,16,4af7bac3c574061d"/>
+<approved hash="6,16,a02ca6160efc3e64"/>
+<approved hash="6,16,ea76075a66cc3a64"/>
+<approved hash="6,16,6e13c8adf8f8e3b2"/>
+<approved hash="6,16,67c50306966fefa0"/>
+<approved hash="6,16,707eaf9d20b78bab"/>
+<approved hash="6,16,dadd636115c2301c"/>
+<approved hash="6,16,52e8551f0e5f09a8"/>
+<approved hash="6,16,0e35acf2234f00c9"/>
+<approved hash="6,16,143f65e858226f4d"/>
+<approved hash="6,16,ed79b39a75bb4cff"/>
+<approved hash="6,16,2633403fcb2c3fad"/>
+<approved hash="6,16,7de77122c4c32037"/>
+<approved hash="6,16,6bf56b477e477ef5"/>
+<approved hash="6,16,a11d6de966922720"/>
+<approved hash="6,16,0487052aed18ecb5"/>
+<approved hash="6,16,eb2e44c6a475f6a9"/>
+<approved hash="6,16,23e34d1a09a8e7ed"/>
+<approved hash="6,16,08820e9b4750f907"/>
+<approved hash="6,16,b69d1e5f5331d10e"/>
+<approved hash="6,16,edf08e1fa7bf98b4"/>
+<approved hash="6,16,b43f723d590877e5"/>
+<approved hash="6,16,7363e8dfc1fff3fd"/>
+<approved hash="6,16,adf2b5e826083e12"/>
+<approved hash="6,16,4c67f12ade94aaa6"/>
+<approved hash="6,16,278e50e1985e8190"/>
+<approved hash="6,16,851c1568ed6c05aa"/>
+<approved hash="6,16,8c6543d4567ed4d6"/>
+<approved hash="6,16,270684c7b5250303"/>
+<approved hash="6,16,c7b2dbb465b479b2"/>
+<approved hash="6,16,1938074493368d4a"/>
+<approved hash="6,16,5ca85dbae0bce1ae"/>
+<approved hash="6,16,3b5925a0c563d7b6"/>
+<approved hash="6,16,66059d9a004e58f6"/>
+<approved hash="6,16,0aa62f6680dab8e7"/>
+<approved hash="6,16,a122e348dbac0a16"/>
+<approved hash="6,16,5198ac44c743fcb5"/>
+<approved hash="6,16,50a8010b0eccc69e"/>
+<approved hash="6,16,615fc21b6d8ebaed"/>
+<approved hash="6,16,00c56ed895f8fbe5"/>
+<approved hash="6,16,db5af150cabfe76b"/>
+<approved hash="6,16,7d94cff47ea85e18"/>
+<approved hash="6,16,7b133c4bb98704e9"/>
+<approved hash="6,16,565bb87d431a244b"/>
+<approved hash="6,16,80d20fbad08516d8"/>
+<approved hash="6,16,16d3810ae1ee118a"/>
+<approved hash="6,16,1a5eb328dba5d1fb"/>
+<approved hash="6,16,c385c3807e807e85"/>
+<approved hash="6,16,eb90c8c17be0460d"/>
+<approved hash="6,16,d9e5e97f53b7632d"/>
+<approved hash="6,16,db718944bc033594"/>
+<approved hash="6,16,a2939b6e4679e971"/>
+<approved hash="6,16,b06057b64e576412"/>
+<approved hash="6,16,a84215d28a6d0fd3"/>
+<approved hash="6,16,9c3b94564db4f5ad"/>
+<approved hash="6,16,b772b482b682b572"/>
+<approved hash="6,16,8d17305a378d123f"/>
 </errors>
 </board>
 </drawing>
