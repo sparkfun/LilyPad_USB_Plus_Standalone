@@ -12510,7 +12510,7 @@ L. Buechley and N. Seidle</text>
 <text x="208.28" y="71.12" size="1.27" layer="97" align="center-left">Petal "-"</text>
 <text x="208.28" y="78.74" size="1.27" layer="97" align="center-left">Petal "+"</text>
 <text x="5.08" y="177.8" size="3.048" layer="97" font="vector">LilyPad Prototyping Board</text>
-<text x="5.08" y="172.72" size="2.032" layer="97" font="vector">Microcontroller</text>
+<text x="4.826" y="174.498" size="2.032" layer="97" font="vector">Microcontroller</text>
 <text x="2.54" y="71.12" size="2.032" layer="97" font="vector">Battery Charger and Regulator</text>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="76.2" width="0.1524" layer="97" style="longdash"/>
 <wire x1="0" y1="76.2" x2="147.32" y2="76.2" width="0.1524" layer="97" style="longdash"/>
@@ -12548,9 +12548,9 @@ I_CHG = 1000/R2</text>
 <instance part="R2" gate="G$1" x="93.98" y="35.56" rot="R90">
 <attribute name="PROD_ID" x="93.98" y="35.56" size="1.27" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="P+2" gate="G$1" x="12.7" y="165.1"/>
-<instance part="R3" gate="G$1" x="12.7" y="157.48" rot="R270">
-<attribute name="PROD_ID" x="12.7" y="157.48" size="1.27" layer="96" rot="R270" display="off"/>
+<instance part="P+2" gate="G$1" x="12.7" y="167.64"/>
+<instance part="R3" gate="G$1" x="12.7" y="160.02" rot="R270">
+<attribute name="PROD_ID" x="12.7" y="160.02" size="1.27" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="12.7" y="134.62"/>
 <instance part="R4" gate="G$1" x="58.42" y="63.5" rot="R180">
@@ -12563,18 +12563,18 @@ I_CHG = 1000/R2</text>
 <instance part="R6" gate="G$1" x="132.08" y="99.06" rot="R180">
 <attribute name="PROD_ID" x="132.08" y="99.06" size="1.27" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="R7" gate="G$1" x="139.7" y="93.98" rot="R180">
-<attribute name="PROD_ID" x="139.7" y="93.98" size="1.27" layer="96" rot="R180" display="off"/>
+<instance part="R7" gate="G$1" x="137.16" y="93.98" rot="R180">
+<attribute name="PROD_ID" x="137.16" y="93.98" size="1.27" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="LED2" gate="G$1" x="147.32" y="99.06" smashed="yes" rot="R270">
 <attribute name="PROD_ID" x="147.32" y="99.06" size="1.27" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="142.748" y="105.791" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="142.748" y="104.775" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="LED3" gate="G$1" x="154.94" y="93.98" smashed="yes" rot="R270">
-<attribute name="PROD_ID" x="154.94" y="93.98" size="1.27" layer="96" rot="R270" display="off"/>
-<attribute name="NAME" x="150.368" y="89.789" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="150.368" y="88.773" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="LED3" gate="G$1" x="152.4" y="93.98" smashed="yes" rot="R270">
+<attribute name="PROD_ID" x="152.4" y="93.98" size="1.27" layer="96" rot="R270" display="off"/>
+<attribute name="NAME" x="147.828" y="89.789" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="147.828" y="88.773" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="LED4" gate="G$1" x="144.78" y="116.84" smashed="yes" rot="R90">
 <attribute name="PROD_ID" x="144.78" y="116.84" size="1.27" layer="96" rot="R90" display="off"/>
@@ -12970,7 +12970,7 @@ I_CHG = 1000/R2</text>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="P+2" gate="G$1" pin="3.3V"/>
-<wire x1="12.7" y1="165.1" x2="12.7" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="167.64" x2="12.7" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="43.18" y1="165.1" x2="43.18" y2="157.48" width="0.1524" layer="91"/>
@@ -13006,10 +13006,11 @@ I_CHG = 1000/R2</text>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="149.86" y1="99.06" x2="157.48" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="157.48" y1="93.98" x2="157.48" y2="99.06" width="0.1524" layer="91"/>
 <junction x="157.48" y="99.06"/>
 <pinref part="P+3" gate="G$1" pin="3.3V"/>
 <wire x1="157.48" y1="101.6" x2="157.48" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="93.98" x2="157.48" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="93.98" x2="157.48" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+4" gate="G$1" pin="3.3V"/>
@@ -13052,14 +13053,14 @@ I_CHG = 1000/R2</text>
 <pinref part="S2" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="160.02" x2="35.56" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G1" pin="!RESET"/>
-<wire x1="12.7" y1="152.4" x2="12.7" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="154.94" x2="12.7" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="TP4" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="152.4" x2="35.56" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="152.4" x2="12.7" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="152.4" x2="35.56" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="160.02" x2="33.02" y2="160.02" width="0.1524" layer="91"/>
-<junction x="12.7" y="152.4"/>
-<junction x="12.7" y="152.4"/>
 <junction x="35.56" y="160.02"/>
+<wire x1="35.56" y1="152.4" x2="12.7" y2="152.4" width="0.1524" layer="91"/>
+<junction x="12.7" y="152.4"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -13115,7 +13116,7 @@ I_CHG = 1000/R2</text>
 <segment>
 <pinref part="LED3" gate="G$1" pin="C"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="93.98" x2="144.78" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="93.98" x2="142.24" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RX_LED" class="0">
@@ -13133,7 +13134,7 @@ I_CHG = 1000/R2</text>
 <net name="TX_LED" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="93.98" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="93.98" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
 <label x="124.46" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
