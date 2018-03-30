@@ -57,7 +57,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
@@ -175,7 +175,7 @@
 <text x="33.766121875" y="10.44575625" size="1.27" layer="21" font="vector" ratio="15">~A8</text>
 <text x="27.178003125" y="6.937378125" size="1.27" layer="21" font="vector" ratio="15">~A7</text>
 <text x="20.399378125" y="6.937378125" size="1.27" layer="21" font="vector" ratio="15">~6</text>
-<text x="18.716628125" y="49.355371875" size="1.016" layer="16" font="vector" ratio="15" rot="SMR167.6">v01</text>
+<text x="26.622371875" y="7.413628125" size="1.016" layer="16" font="vector" ratio="15" rot="SMR0">v10</text>
 <text x="42.084628125" y="22.54249375" size="2.1844" layer="21" font="vector" ratio="15">+</text>
 <text x="37.449121875" y="36.76649375" size="1.27" layer="21" font="vector" ratio="15">11</text>
 <text x="7.000871875" y="22.54249375" size="2.1844" layer="21" font="vector" ratio="15">-</text>
@@ -2379,18 +2379,42 @@
 </text>
 <text x="-52.07" y="-11.43" size="1.778" layer="52" font="vector" rot="MR0">Marshall Taylor</text>
 <text x="-32.131" y="-13.97" size="1.778" layer="52" font="vector" rot="MR0">Revised by: Elias Santistevan</text>
-<text x="3.81" y="-14.76375" size="1.778" layer="51" font="vector" align="top-left">LilyPad concept and shapes by:  L. Buechley and N. Seidle</text>
-<text x="50.8" y="-11.43" size="1.778" layer="51" font="vector">Marshall Taylor</text>
-<text x="32.131" y="-13.97" size="1.778" layer="51" font="vector">Revised by: Elias Santistevan</text>
-<text x="5.08" y="-30.48" size="1.778" layer="51" align="top-left">PCB thickness: 31 mil / 0.8mm </text>
-<text x="5.08" y="-34.29" size="1.778" layer="51" align="top-left">Solder mask color: Purple (Lilypad)</text>
-<text x="5.08" y="-38.1" size="1.778" layer="51" align="top-left">Finishing: Lead-free HASL</text>
-<text x="5.08" y="-41.91" size="1.778" layer="51" align="top-left">Unplated holes:
+<text x="-3.81" y="-14.76375" size="1.778" layer="52" font="vector" rot="MR0" align="top-left">LilyPad concept and shapes by:  L. Buechley and N. Seidle</text>
+<text x="-50.8" y="-11.43" size="1.778" layer="52" font="vector" rot="MR0">Marshall Taylor</text>
+<text x="-32.131" y="-13.97" size="1.778" layer="52" font="vector" rot="MR0">Revised by: Elias Santistevan</text>
+<text x="-5.08" y="-30.48" size="1.778" layer="52" rot="MR0" align="top-left">PCB thickness: 31 mil / 0.8mm </text>
+<text x="-5.08" y="-34.29" size="1.778" layer="52" rot="MR0" align="top-left">Solder mask color: Purple (Lilypad)</text>
+<text x="-5.08" y="-38.1" size="1.778" layer="52" rot="MR0" align="top-left">Finishing: Lead-free HASL</text>
+<text x="-5.08" y="-41.91" size="1.778" layer="52" rot="MR0" align="top-left">Unplated holes:
 0.013
 </text>
-<text x="31.75" y="-41.91" size="1.778" layer="51" align="top-left">Plated holes:
+<text x="-31.75" y="-41.91" size="1.778" layer="52" rot="MR0" align="top-left">Plated holes:
 0.11
 </text>
+<text x="-151.13" y="-29.21" size="1.778" layer="52" rot="MR0" align="top-left">PCB thickness: 31 mil / 0.8mm </text>
+<text x="-151.13" y="-33.02" size="1.778" layer="52" rot="MR0" align="top-left">Solder mask color: Purple (Lilypad)</text>
+<text x="-151.13" y="-36.83" size="1.778" layer="52" rot="MR0" align="top-left">Finishing: Lead-free HASL</text>
+<text x="-151.13" y="-40.64" size="1.778" layer="52" rot="MR0" align="top-left">Unplated holes:
+0.013
+</text>
+<text x="-177.8" y="-40.64" size="1.778" layer="52" rot="MR0" align="top-left">Plated holes:
+0.11
+</text>
+<text x="-154.94" y="-20.32" size="1.778" layer="52" font="vector" rot="MR0">Marshall Taylor</text>
+<text x="-141.351" y="-24.13" size="1.778" layer="52" font="vector" rot="MR0">Revised by: Elias Santistevan</text>
+<text x="-142.24" y="-26.19375" size="1.778" layer="52" font="vector" rot="MR0" align="top-left">LilyPad concept and shapes by:  L. Buechley and N. Seidle</text>
+<text x="5.08" y="-29.21" size="1.778" layer="51" align="top-left">PCB thickness: 31 mil / 0.8mm </text>
+<text x="5.08" y="-33.02" size="1.778" layer="51" align="top-left">Solder mask color: Purple (Lilypad)</text>
+<text x="5.08" y="-36.83" size="1.778" layer="51" align="top-left">Finishing: Lead-free HASL</text>
+<text x="5.08" y="-40.64" size="1.778" layer="51" align="top-left">Unplated holes:
+0.013
+</text>
+<text x="31.75" y="-40.64" size="1.778" layer="51" align="top-left">Plated holes:
+0.11
+</text>
+<text x="50.8" y="-11.43" size="1.778" layer="51" font="vector">Marshall Taylor</text>
+<text x="32.131" y="-13.97" size="1.778" layer="51" font="vector">Revised by: Elias Santistevan</text>
+<text x="3.81" y="-16.03375" size="1.778" layer="51" font="vector" align="top-left">LilyPad concept and shapes by:  L. Buechley and N. Seidle</text>
 </plain>
 <libraries>
 <library name="LilyPad-Wearables">
@@ -3823,7 +3847,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$13" library="newLilypadParts" package="LILYPAD-WEARABLES_LOGO-LILYPAD" value="LILYLOGO_SHORT" x="20.579078125" y="38.717221875"/>
 <element name="U$44" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="SPECIAL_INSTRUCTIONS-ORDERING" x="3.81" y="-19.05"/>
 <element name="U$1" library="newLilypadParts" package="LILYPAD-WEARABLES_LOGO-LILYPAD" value="LILYLOGO_SHORT" x="25.4" y="27.5828125" rot="MR0"/>
-<element name="LOGO6" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="25.527" y="31.623" rot="MR0"/>
+<element name="LOGO6" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="25.527" y="36.703" rot="MR0"/>
 <element name="D10" library="SparkFun-LED" package="PLCC4SMDLED" value="XZM2CRKM2DGFBB45SCCB" x="25.4" y="25.4" rot="R270">
 <attribute name="PROD_ID" value="DIO-13722" x="25.4" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -3833,7 +3857,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="TP8" library="SparkFun-Connectors" package="PAD.03X.03" value="TEST-POINT3" x="38.735" y="20.32" rot="MR0"/>
 <element name="JP1" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="11.43" y="13.97" rot="MR0"/>
 <element name="JP4" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="43.18" y="35.56" rot="MR0"/>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="26.67" y="19.05" rot="MR0"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="27.559" y="13.97" rot="MR0"/>
 </elements>
 <signals>
 <signal name="N$2">
@@ -6807,7 +6831,23 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="7,39,e417402d87b46589"/>
 <approved hash="7,39,9acb5dc49e7fd163"/>
 <approved hash="7,39,b34813668af3e8b5"/>
+<approved hash="6,16,aaa8005d09813e24"/>
+<approved hash="6,16,c1fe82c77a110c2c"/>
+<approved hash="6,16,8a0c223cd19052c5"/>
+<approved hash="6,16,82a5b7885293704f"/>
+<approved hash="6,16,689b8d9118f05cea"/>
+<approved hash="6,16,9aa8c798e89bb1b0"/>
+<approved hash="6,16,45640c004f001388"/>
+<approved hash="6,16,c7aeca5e15ead194"/>
+<approved hash="6,16,8285ef7729a80018"/>
+<approved hash="6,16,3358da14ce6d029b"/>
+<approved hash="6,16,6c8c6cd438be3cb7"/>
+<approved hash="6,16,d804304687688f90"/>
 <approved hash="3,16,ca800b675de00266"/>
+<approved hash="6,16,c6084a1e5c0cce7f"/>
+<approved hash="6,16,d23c33e5744dbb2e"/>
+<approved hash="3,16,25687fd380840fb1"/>
+<approved hash="3,16,00160f4433b53ce7"/>
 <approved hash="3,1,cc921984f0fc9c3c"/>
 <approved hash="3,1,e4e464206491e455"/>
 <approved hash="1,20,d81cf922ff43de7d"/>
@@ -7361,8 +7401,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="4,16,3182d976a3e773a6"/>
 <approved hash="4,16,37714a9e8439e4c9"/>
 <approved hash="4,16,879de0fceb21c338"/>
-<approved hash="19,16,1e3e00007c00623e"/>
 <approved hash="19,16,19be078004001a3e"/>
+<approved hash="19,16,1e3e00007c00623e"/>
 <approved hash="19,16,59bc8782840c5a32"/>
 <approved hash="19,16,5e3c8002fc0c2232"/>
 <approved hash="4,16,261fddf1c1f43a1a"/>
@@ -7377,28 +7417,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,16,0a3edc00a002763c"/>
 <approved hash="4,16,3b2a61f660493a95"/>
 <approved hash="4,16,0752ae0eab690235"/>
-<approved hash="4,16,087d6da16e590b85"/>
 <approved hash="4,16,08416d9d50593585"/>
+<approved hash="4,16,087d6da16e590b85"/>
 <approved hash="4,16,19e4698a6bc81ba6"/>
 <approved hash="4,16,1a036a6d766a0604"/>
 <approved hash="4,16,38d46a3a68c43a2a"/>
 <approved hash="4,16,3807eae9eae63808"/>
 <approved hash="19,16,953e81008d3c9902"/>
 <approved hash="19,16,273c83028720231e"/>
-<approved hash="6,16,c6084a1e5c0cce7f"/>
-<approved hash="6,16,d23c33e5744dbb2e"/>
-<approved hash="6,16,aaa8005d09813e24"/>
-<approved hash="6,16,c1fe82c77a110c2c"/>
-<approved hash="6,16,8a0c223cd19052c5"/>
-<approved hash="6,16,82a5b7885293704f"/>
-<approved hash="6,16,689b8d9118f05cea"/>
-<approved hash="6,16,9aa8c798e89bb1b0"/>
-<approved hash="6,16,45640c004f001388"/>
-<approved hash="6,16,c7aeca5e15ead194"/>
-<approved hash="6,16,8285ef7729a80018"/>
-<approved hash="6,16,3358da14ce6d029b"/>
-<approved hash="6,16,6c8c6cd438be3cb7"/>
-<approved hash="6,16,d804304687688f90"/>
 <approved hash="6,16,4603e48a32438508"/>
 <approved hash="6,16,851f8000d9f0dcef"/>
 <approved hash="6,16,a5e2a128361832d2"/>

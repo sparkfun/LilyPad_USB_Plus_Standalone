@@ -12482,7 +12482,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="195.834" y="151.13" size="1.27" layer="97">32u4 BYPASS</text>
 <text x="220.98" y="151.13" size="1.27" layer="97">MIC5219 BYPASS</text>
 <text x="171.45" y="11.43" size="2.54" layer="94">Marshall Taylor</text>
-<text x="238.252" y="7.112" size="2.54" layer="94">v01</text>
+<text x="238.252" y="7.112" size="2.54" layer="94">v10</text>
 <text x="149.86" y="38.1" size="2.54" layer="94">LilyPad concept and shapes by:
 L. Buechley and N. Seidle</text>
 <wire x1="223.52" y1="182.88" x2="246.38" y2="182.88" width="0.1524" layer="97" style="shortdash"/>
@@ -12519,16 +12519,17 @@ I_CHG = 1000/R2</text>
 <text x="5.08" y="5.08" size="2.032" layer="97" font="vector">Supply 5.0V from USB, or
 3.3-4.2V on battery connector.</text>
 <text x="148.844" y="7.112" size="2.54" layer="94">Revised by: Elias Santistevan</text>
-<wire x1="76.2" y1="182.88" x2="76.2" y2="167.64" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="76.2" y1="167.64" x2="88.9" y2="167.64" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="88.9" y1="167.64" x2="144.78" y2="167.64" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="144.78" y1="167.64" x2="144.78" y2="182.88" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="144.78" y1="182.88" x2="76.2" y2="182.88" width="0.2032" layer="97" style="shortdash"/>
-<text x="78.74" y="170.18" size="1.778" layer="97">Note: All GPIO have digital functionality and 
+<wire x1="76.2" y1="182.88" x2="76.2" y2="165.1" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="76.2" y1="165.1" x2="88.9" y2="165.1" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="88.9" y1="165.1" x2="147.32" y2="165.1" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="147.32" y1="165.1" x2="147.32" y2="182.88" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="147.32" y1="182.88" x2="76.2" y2="182.88" width="0.2032" layer="97" style="shortdash"/>
+<text x="78.74" y="167.64" size="1.778" layer="97">Note: All GPIO have digital functionality and 
 are labled with a "D" convention. Check the 
 product's documentation folder in this 
-repository for more information on GPIO.</text>
-<wire x1="88.9" y1="162.56" x2="88.9" y2="167.64" width="0.2032" layer="97" style="shortdash"/>
+repository for more information on GPIO. 
+This information is also in our hookup guide.</text>
+<wire x1="88.9" y1="162.56" x2="88.9" y2="165.1" width="0.2032" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="73.66" y="43.18">
