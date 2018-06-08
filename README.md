@@ -11,12 +11,8 @@ Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the LilyPad USB Plus
 * **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the LilyPad USB Plus
 
 <b>Note for Linux Users:</b> If you are installing the LilyPad USB Plus in Linux, this document has some specific notes:
 <a href="https://github.com/sparkfun/LilyPad_ProtoSnap_Plus/blob/master/Documentation/LinuxInstallation.md">https://github.com/sparkfun/LilyPad_ProtoSnap_Plus/blob/master/Documentation/LinuxInstallation.md</a>.
