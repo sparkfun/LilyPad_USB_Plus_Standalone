@@ -23,22 +23,11 @@ Repository Contents
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - Arduino library for the LilyPad USB Plus.
+* **[Library](https://github.com/sparkfun/LilyPad_USB_Plus_Standalone/tree/master/Libraries)** - Arduino library for the LilyPad USB Plus.
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/lilypad-usb-plus-hookup-guide)** - Basic hookup guide for the LilyPad USB Plus.
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 * **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 * **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
-
-Product Versions
-----------------
-* [Part SKU](part URL)- Basic part and short description here
-* [Retail part SKU] (retail URL)- Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
-
-Version History
----------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
 
 License Information
 -------------------
@@ -53,4 +42,3 @@ Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
 
-_<COLLABORATION CREDIT>_
