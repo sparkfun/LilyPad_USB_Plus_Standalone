@@ -3,9 +3,9 @@ SparkFun LilyPad USB Plus
 
 ![LilyPad USB Plus](https://cdn.sparkfun.com/assets/parts/1/2/8/1/0/14631-Lilypad_USB_Plus-01.jpg)
 
-[*LilyPad USB Plus(14631)*](https://www.sparkfun.com/products/14631)
+[*LilyPad USB Plus (14631)*](https://www.sparkfun.com/products/14631)
 
-<Basic description of the part.>
+This is the LilyPad USB Plus, a sewable electronics microcontroller board controlled by an ATmega32U4 with the Arduino bootloader. 
 
 Repository Contents
 -------------------
